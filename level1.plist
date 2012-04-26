@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>en</key>
+		<string>Hello</string>
+		<key>ar</key>
+		<string>Marhaban</string>
+		<key>image</key>
+		<string>101.jpg</string>
+		<key>wid</key>
+		<integer>101</integer>
+	</dict>
+	<dict>
+		<key>en</key>
+		<string>Goodbye</string>
+		<key>ar</key>
+		<string>ma &apos;a al-salama</string>
+		<key>image</key>
+		<string>107.jpg</string>
+		<key>wid</key>
+		<integer>107</integer>
+	</dict>
+	<dict>
+		<key>en</key>
+		<string>I am Dina</string>
+		<key>ar</key>
+		<string>Ana Dina</string>
+		<key>image</key>
+		<string>102.jpg</string>
+		<key>wid</key>
+		<integer>102</integer>
+	</dict>
+	<dict>
+		<key>en</key>
+		<string>I</string>
+		<key>ar</key>
+		<string>ana</string>
+		<key>image</key>
+		<string>109.jpg</string>
+		<key>wid</key>
+		<integer>109</integer>
+	</dict>
+	<dict>
+		<key>en</key>
+		<string>How are you?</string>
+		<key>ar</key>
+		<string>Kaif Haluka?</string>
+		<key>image</key>
+		<string>105.jpg</string>
+		<key>wid</key>
+		<integer>105</integer>
+	</dict>
+	<dict>
+		<key>en</key>
+		<string>I am fine.</string>
+		<key>ar</key>
+		<string>Ana bekhair.</string>
+		<key>image</key>
+		<string>106.jpg</string>
+		<key>wid</key>
+		<integer>106</integer>
+	</dict>
+</array>
+</plist>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368F24C81541B8A300AAFFB9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F24C71541B8A300AAFFB9 /* FirstViewController.m */; };
+		368F24D81542041700AAFFB9 /* FlashCardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F24D71542041700AAFFB9 /* FlashCardsViewController.m */; };
+		368F24DB1542082F00AAFFB9 /* SingleFlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F24DA1542082F00AAFFB9 /* SingleFlashCardViewController.m */; };
+		368F24E41542263A00AAFFB9 /* BigImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F24E31542263A00AAFFB9 /* BigImageViewController.m */; };
+		368F24E61542289E00AAFFB9 /* m51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 368F24E51542289D00AAFFB9 /* m51.jpg */; };
 		36973D75153CBE5B0028ED8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36973D74153CBE5B0028ED8C /* UIKit.framework */; };
 		36973D77153CBE5B0028ED8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36973D76153CBE5B0028ED8C /* Foundation.framework */; };
 		36973D79153CBE5B0028ED8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36973D78153CBE5B0028ED8C /* CoreGraphics.framework */; };
@@ -15,22 +20,78 @@
 		36973D85153CBE5C0028ED8C /* SmilyFaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36973D84153CBE5C0028ED8C /* SmilyFaceAppDelegate.m */; };
 		36973D88153CBE5C0028ED8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36973D86153CBE5C0028ED8C /* MainStoryboard.storyboard */; };
 		36973D8B153CBE5C0028ED8C /* SmilyFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36973D8A153CBE5C0028ED8C /* SmilyFaceViewController.m */; };
+		36973D93153CBF540028ED8C /* SmilyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36973D92153CBF540028ED8C /* SmilyView.m */; };
+		3698238D1542B86500C5AD29 /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3698238C1542B86500C5AD29 /* level1.plist */; };
+		3698239B1542E82800C5AD29 /* 101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823941542E82800C5AD29 /* 101.jpg */; };
+		3698239C1542E82800C5AD29 /* 102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823951542E82800C5AD29 /* 102.jpg */; };
+		3698239D1542E82800C5AD29 /* 105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823961542E82800C5AD29 /* 105.jpg */; };
+		3698239E1542E82800C5AD29 /* 106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823971542E82800C5AD29 /* 106.jpg */; };
+		3698239F1542E82800C5AD29 /* 107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823981542E82800C5AD29 /* 107.jpg */; };
+		369823A01542E82800C5AD29 /* 109.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 369823991542E82800C5AD29 /* 109.jpg */; };
+		369823A11542E82800C5AD29 /* 110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3698239A1542E82800C5AD29 /* 110.jpg */; };
+		369823A31542EA9D00C5AD29 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369823A21542EA9D00C5AD29 /* AudioToolbox.framework */; };
+		369823A61542F41B00C5AD29 /* 101.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823A51542F41B00C5AD29 /* 101.mp3 */; };
+		369823AC1542FCA700C5AD29 /* 102.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823A71542FCA700C5AD29 /* 102.mp3 */; };
+		369823AD1542FCA700C5AD29 /* 105.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823A81542FCA700C5AD29 /* 105.mp3 */; };
+		369823AE1542FCA700C5AD29 /* 106.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823A91542FCA700C5AD29 /* 106.mp3 */; };
+		369823AF1542FCA700C5AD29 /* 107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823AA1542FCA700C5AD29 /* 107.mp3 */; };
+		369823B01542FCA700C5AD29 /* 109.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 369823AB1542FCA700C5AD29 /* 109.mp3 */; };
+		369D37A2154844BB008333AA /* BabelbayLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D37A1154844BB008333AA /* BabelbayLevel.m */; };
+		369D37A615484538008333AA /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 369D37A515484538008333AA /* RXMLElement.m */; };
+		369D37A915484607008333AA /* Level1.xml in Resources */ = {isa = PBXBuildFile; fileRef = 369D37A815484607008333AA /* Level1.xml */; };
+		369D37AF15484BC3008333AA /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 369D37AE15484BC3008333AA /* libxml2.2.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		369D37B115484C36008333AA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 369D37B015484C36008333AA /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		368F24C61541B8A300AAFFB9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = SmilyFace/FirstViewController.h; sourceTree = "<group>"; };
+		368F24C71541B8A300AAFFB9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = SmilyFace/FirstViewController.m; sourceTree = "<group>"; };
+		368F24D61542041700AAFFB9 /* FlashCardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardsViewController.h; sourceTree = "<group>"; };
+		368F24D71542041700AAFFB9 /* FlashCardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardsViewController.m; sourceTree = "<group>"; };
+		368F24D91542082F00AAFFB9 /* SingleFlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleFlashCardViewController.h; sourceTree = "<group>"; };
+		368F24DA1542082F00AAFFB9 /* SingleFlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleFlashCardViewController.m; sourceTree = "<group>"; };
+		368F24E21542263A00AAFFB9 /* BigImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigImageViewController.h; sourceTree = "<group>"; };
+		368F24E31542263A00AAFFB9 /* BigImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigImageViewController.m; sourceTree = "<group>"; };
+		368F24E51542289D00AAFFB9 /* m51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = m51.jpg; sourceTree = "<group>"; };
 		36973D70153CBE5B0028ED8C /* SmilyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmilyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36973D74153CBE5B0028ED8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36973D76153CBE5B0028ED8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36973D78153CBE5B0028ED8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		36973D7C153CBE5C0028ED8C /* SmilyFace-Info.plist */ = {isa = PBXFileReference; path = "SmilyFace-Info.plist"; sourceTree = "<group>"; };
+		36973D7C153CBE5C0028ED8C /* SmilyFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmilyFace-Info.plist"; sourceTree = "<group>"; };
 		36973D7E153CBE5C0028ED8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36973D80153CBE5C0028ED8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36973D82153CBE5C0028ED8C /* SmilyFace-Prefix.pch */ = {isa = PBXFileReference; path = "SmilyFace-Prefix.pch"; sourceTree = "<group>"; };
-		36973D83153CBE5C0028ED8C /* SmilyFaceAppDelegate.h */ = {isa = PBXFileReference; path = SmilyFaceAppDelegate.h; sourceTree = "<group>"; };
+		36973D82153CBE5C0028ED8C /* SmilyFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmilyFace-Prefix.pch"; sourceTree = "<group>"; };
+		36973D83153CBE5C0028ED8C /* SmilyFaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmilyFaceAppDelegate.h; sourceTree = "<group>"; };
 		36973D84153CBE5C0028ED8C /* SmilyFaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmilyFaceAppDelegate.m; sourceTree = "<group>"; };
 		36973D87153CBE5C0028ED8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		36973D89153CBE5C0028ED8C /* SmilyFaceViewController.h */ = {isa = PBXFileReference; path = SmilyFaceViewController.h; sourceTree = "<group>"; };
+		36973D89153CBE5C0028ED8C /* SmilyFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmilyFaceViewController.h; sourceTree = "<group>"; };
 		36973D8A153CBE5C0028ED8C /* SmilyFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmilyFaceViewController.m; sourceTree = "<group>"; };
+		36973D91153CBF540028ED8C /* SmilyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmilyView.h; sourceTree = "<group>"; };
+		36973D92153CBF540028ED8C /* SmilyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmilyView.m; sourceTree = "<group>"; };
+		3698238C1542B86500C5AD29 /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = level1.plist; sourceTree = "<group>"; };
+		369823941542E82800C5AD29 /* 101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 101.jpg; sourceTree = "<group>"; };
+		369823951542E82800C5AD29 /* 102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 102.jpg; sourceTree = "<group>"; };
+		369823961542E82800C5AD29 /* 105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 105.jpg; sourceTree = "<group>"; };
+		369823971542E82800C5AD29 /* 106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 106.jpg; sourceTree = "<group>"; };
+		369823981542E82800C5AD29 /* 107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 107.jpg; sourceTree = "<group>"; };
+		369823991542E82800C5AD29 /* 109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 109.jpg; sourceTree = "<group>"; };
+		3698239A1542E82800C5AD29 /* 110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 110.jpg; sourceTree = "<group>"; };
+		369823A21542EA9D00C5AD29 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		369823A51542F41B00C5AD29 /* 101.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 101.mp3; sourceTree = "<group>"; };
+		369823A71542FCA700C5AD29 /* 102.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 102.mp3; sourceTree = "<group>"; };
+		369823A81542FCA700C5AD29 /* 105.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 105.mp3; sourceTree = "<group>"; };
+		369823A91542FCA700C5AD29 /* 106.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 106.mp3; sourceTree = "<group>"; };
+		369823AA1542FCA700C5AD29 /* 107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 107.mp3; sourceTree = "<group>"; };
+		369823AB1542FCA700C5AD29 /* 109.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 109.mp3; sourceTree = "<group>"; };
+		369D37A0154844BB008333AA /* BabelbayLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BabelbayLevel.h; path = Babelbay_Core/BabelbayLevel.h; sourceTree = "<group>"; };
+		369D37A1154844BB008333AA /* BabelbayLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BabelbayLevel.m; path = Babelbay_Core/BabelbayLevel.m; sourceTree = "<group>"; };
+		369D37A415484538008333AA /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		369D37A515484538008333AA /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		369D37A815484607008333AA /* Level1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Level1.xml; sourceTree = "<group>"; };
+		369D37AA15484B9B008333AA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		369D37AC15484BB6008333AA /* libxml2.2.7.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.7.3.dylib; path = usr/lib/libxml2.2.7.3.dylib; sourceTree = SDKROOT; };
+		369D37AE15484BC3008333AA /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		369D37B015484C36008333AA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369D37B115484C36008333AA /* libz.dylib in Frameworks */,
+				369D37AF15484BC3008333AA /* libxml2.2.dylib in Frameworks */,
+				369823A31542EA9D00C5AD29 /* AudioToolbox.framework in Frameworks */,
 				36973D75153CBE5B0028ED8C /* UIKit.framework in Frameworks */,
 				36973D77153CBE5B0028ED8C /* Foundation.framework in Frameworks */,
 				36973D79153CBE5B0028ED8C /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +111,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368F24D21541F62F00AAFFB9 /* Babelbay */ = {
+			isa = PBXGroup;
+			children = (
+				369D379E15484488008333AA /* Core */,
+				3698238A1542B83F00C5AD29 /* Resources */,
+				36973D86153CBE5C0028ED8C /* MainStoryboard.storyboard */,
+				368F24C61541B8A300AAFFB9 /* FirstViewController.h */,
+				368F24C71541B8A300AAFFB9 /* FirstViewController.m */,
+				368F24D61542041700AAFFB9 /* FlashCardsViewController.h */,
+				368F24D71542041700AAFFB9 /* FlashCardsViewController.m */,
+				368F24D91542082F00AAFFB9 /* SingleFlashCardViewController.h */,
+				368F24DA1542082F00AAFFB9 /* SingleFlashCardViewController.m */,
+			);
+			name = Babelbay;
+			sourceTree = "<group>";
+		};
+		368F24E1154225FC00AAFFB9 /* BigImage */ = {
+			isa = PBXGroup;
+			children = (
+				368F24E51542289D00AAFFB9 /* m51.jpg */,
+				368F24E21542263A00AAFFB9 /* BigImageViewController.h */,
+				368F24E31542263A00AAFFB9 /* BigImageViewController.m */,
+			);
+			name = BigImage;
+			sourceTree = "<group>";
+		};
 		36973D65153CBE5B0028ED8C = {
 			isa = PBXGroup;
 			children = (
+				369D37B015484C36008333AA /* libz.dylib */,
+				369D37AE15484BC3008333AA /* libxml2.2.dylib */,
+				369D37AC15484BB6008333AA /* libxml2.2.7.3.dylib */,
+				369D37AA15484B9B008333AA /* libxml2.dylib */,
+				369D37A315484538008333AA /* RaptureXML */,
+				369823A21542EA9D00C5AD29 /* AudioToolbox.framework */,
+				368F24E1154225FC00AAFFB9 /* BigImage */,
+				368F24D21541F62F00AAFFB9 /* Babelbay */,
 				36973D7A153CBE5C0028ED8C /* SmilyFace */,
 				36973D73153CBE5B0028ED8C /* Frameworks */,
 				36973D71153CBE5B0028ED8C /* Products */,
@@ -79,10 +177,11 @@
 			children = (
 				36973D83153CBE5C0028ED8C /* SmilyFaceAppDelegate.h */,
 				36973D84153CBE5C0028ED8C /* SmilyFaceAppDelegate.m */,
-				36973D86153CBE5C0028ED8C /* MainStoryboard.storyboard */,
 				36973D89153CBE5C0028ED8C /* SmilyFaceViewController.h */,
 				36973D8A153CBE5C0028ED8C /* SmilyFaceViewController.m */,
 				36973D7B153CBE5C0028ED8C /* Supporting Files */,
+				36973D91153CBF540028ED8C /* SmilyView.h */,
+				36973D92153CBF540028ED8C /* SmilyView.m */,
 			);
 			path = SmilyFace;
 			sourceTree = "<group>";
@@ -96,6 +195,70 @@
 				36973D82153CBE5C0028ED8C /* SmilyFace-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3698238A1542B83F00C5AD29 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				369D37A7154845F2008333AA /* levels */,
+				369823A41542F41B00C5AD29 /* sounds */,
+				369823931542E82800C5AD29 /* images */,
+				3698238C1542B86500C5AD29 /* level1.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		369823931542E82800C5AD29 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				369823941542E82800C5AD29 /* 101.jpg */,
+				369823951542E82800C5AD29 /* 102.jpg */,
+				369823961542E82800C5AD29 /* 105.jpg */,
+				369823971542E82800C5AD29 /* 106.jpg */,
+				369823981542E82800C5AD29 /* 107.jpg */,
+				369823991542E82800C5AD29 /* 109.jpg */,
+				3698239A1542E82800C5AD29 /* 110.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		369823A41542F41B00C5AD29 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				369823A71542FCA700C5AD29 /* 102.mp3 */,
+				369823A81542FCA700C5AD29 /* 105.mp3 */,
+				369823A91542FCA700C5AD29 /* 106.mp3 */,
+				369823AA1542FCA700C5AD29 /* 107.mp3 */,
+				369823AB1542FCA700C5AD29 /* 109.mp3 */,
+				369823A51542F41B00C5AD29 /* 101.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		369D379E15484488008333AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				369D37A0154844BB008333AA /* BabelbayLevel.h */,
+				369D37A1154844BB008333AA /* BabelbayLevel.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		369D37A315484538008333AA /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				369D37A415484538008333AA /* RXMLElement.h */,
+				369D37A515484538008333AA /* RXMLElement.m */,
+			);
+			path = RaptureXML;
+			sourceTree = "<group>";
+		};
+		369D37A7154845F2008333AA /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				369D37A815484607008333AA /* Level1.xml */,
+			);
+			name = levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +314,22 @@
 			files = (
 				36973D7F153CBE5C0028ED8C /* InfoPlist.strings in Resources */,
 				36973D88153CBE5C0028ED8C /* MainStoryboard.storyboard in Resources */,
+				368F24E61542289E00AAFFB9 /* m51.jpg in Resources */,
+				3698238D1542B86500C5AD29 /* level1.plist in Resources */,
+				3698239B1542E82800C5AD29 /* 101.jpg in Resources */,
+				3698239C1542E82800C5AD29 /* 102.jpg in Resources */,
+				3698239D1542E82800C5AD29 /* 105.jpg in Resources */,
+				3698239E1542E82800C5AD29 /* 106.jpg in Resources */,
+				3698239F1542E82800C5AD29 /* 107.jpg in Resources */,
+				369823A01542E82800C5AD29 /* 109.jpg in Resources */,
+				369823A11542E82800C5AD29 /* 110.jpg in Resources */,
+				369823A61542F41B00C5AD29 /* 101.mp3 in Resources */,
+				369823AC1542FCA700C5AD29 /* 102.mp3 in Resources */,
+				369823AD1542FCA700C5AD29 /* 105.mp3 in Resources */,
+				369823AE1542FCA700C5AD29 /* 106.mp3 in Resources */,
+				369823AF1542FCA700C5AD29 /* 107.mp3 in Resources */,
+				369823B01542FCA700C5AD29 /* 109.mp3 in Resources */,
+				369D37A915484607008333AA /* Level1.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +343,13 @@
 				36973D81153CBE5C0028ED8C /* main.m in Sources */,
 				36973D85153CBE5C0028ED8C /* SmilyFaceAppDelegate.m in Sources */,
 				36973D8B153CBE5C0028ED8C /* SmilyFaceViewController.m in Sources */,
+				36973D93153CBF540028ED8C /* SmilyView.m in Sources */,
+				368F24C81541B8A300AAFFB9 /* FirstViewController.m in Sources */,
+				368F24D81542041700AAFFB9 /* FlashCardsViewController.m in Sources */,
+				368F24DB1542082F00AAFFB9 /* SingleFlashCardViewController.m in Sources */,
+				368F24E41542263A00AAFFB9 /* BigImageViewController.m in Sources */,
+				369D37A2154844BB008333AA /* BabelbayLevel.m in Sources */,
+				369D37A615484538008333AA /* RXMLElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +370,7 @@
 				36973D87153CBE5C0028ED8C /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = SmilyFace;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -209,7 +396,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -227,7 +414,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -239,8 +426,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmilyFace/SmilyFace-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "SmilyFace/SmilyFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,8 +439,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmilyFace/SmilyFace-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SDK_DIR)\"/usr/include/libxml2";
 				INFOPLIST_FILE = "SmilyFace/SmilyFace-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,6 +466,7 @@
 				36973D90153CBE5C0028ED8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

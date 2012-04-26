@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="1">
+    <name>
+      <en>Greetings</en>
+      <ar>
+        <x>التحيّة</x>
+        <r>altahiyyah</r>
+      </ar>
+      <de>Grüße</de>
+      <pl>Pozdrowienia</pl>
+      <es>Saludos</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="101" type="word">
+        <translations>
+          <en>Hi</en>
+          <ar>
+            <x>مرحبا</x>
+            <r>marhaban</r>
+          </ar>
+          <ru>
+            <x>Привет</x>
+            <r>Privet</r>
+          </ru>
+          <de>Hallo</de>
+          <pl>Cześć!</pl>
+          <es>Hola</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="107" type="word">
+        <translations>
+          <en>Goodbye</en>
+          <ar>
+            <x>مع السلامة</x>
+            <r>ma'a alsalama</r>
+          </ar>
+          <ru>
+            <x>До свидания</x>
+            <r>Do Svidania</r>
+          </ru>
+          <de>Auf Wiedersehen</de>
+          <pl>Do widzenia</pl>
+          <es>Adiós</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="101" />
+          <choice ref="107" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="102" type="word">
+        <translations>
+          <en>I am Dina</en>
+          <ar>
+            <x>أنا دينا</x>
+            <r>ana dina</r>
+          </ar>
+          <ru>
+            <x>Я Дина</x>
+            <r>Ia Dina</r>
+          </ru>
+          <de>Ich bin Diana</de>
+          <pl>Jestem Dina</pl>
+          <es>Soy Dina</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="109" type="word">
+        <translations>
+          <en>I</en>
+          <ar>
+            <x>أنا</x>
+            <r>ana</r>
+          </ar>
+          <ru>
+            <x>Я</x>
+            <r>Ia</r>
+          </ru>
+          <de>Ich</de>
+          <pl>Ja</pl>
+          <es>Yo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="110" type="word">
+        <translations>
+          <en>You</en>
+          <ar>
+            <x>أنت</x>
+            <r>ant</r>
+          </ar>
+          <ru>
+            <x>Вы</x>
+            <r>Vi</r>
+          </ru>
+          <de>Du, (Sie)</de>
+          <pl>Ty</pl>
+          <es>Tú</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="109" />
+          <choice ref="110" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="105" type="word">
+        <translations>
+          <en>How are you?</en>
+          <ar>
+            <x>كيف حالك؟</x>
+            <r>kaif haluka?</r>
+          </ar>
+          <ru>
+            <x>Как дела?</x>
+            <r>Kak dela?</r>
+          </ru>
+          <de>Wie geht es Dir, (Ihnen)?</de>
+          <pl>Jak się masz?</pl>
+          <es>¿Cómo estás?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="106" type="word">
+        <translations>
+          <en>I am fine</en>
+          <ar>
+            <x>أنا بخير</x>
+            <r>ana bekhair</r>
+          </ar>
+          <ru>
+            <x>У меня всё хорошо</x>
+            <r>U menea vseo horosho</r>
+          </ru>
+          <de>Mir geht es gut</de>
+          <pl>Świetnie</pl>
+          <es>Estoy bien</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="104" type="word">
+        <translations>
+          <en>Thank you!</en>
+          <ar>
+            <x>شكراً</x>
+            <r>shukran</r>
+          </ar>
+          <ru>
+            <x>Спасибо!</x>
+            <r>Spasibo!</r>
+          </ru>
+          <de>Vielen Dank!</de>
+          <pl>Dziękuję!</pl>
+          <es>¡Gracias!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="106" />
+          <choice ref="104" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="108" type="word">
+        <translations>
+          <en>Who are you?</en>
+          <ar>
+            <x>من أنت؟</x>
+            <r>man ant?</r>
+          </ar>
+          <ru>
+            <x>Кто вы?</x>
+            <r>Kto vi?</r>
+          </ru>
+          <de>Wer bist Du, (Sie)?</de>
+          <pl>Kim jesteś?</pl>
+          <es>¿Quién eres?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="111" type="word">
+        <translations>
+          <en>How about you?</en>
+          <ar>
+            <x>ماذا عنك؟</x>
+            <r>matha a'ank?</r>
+          </ar>
+          <ru>
+            <x>А как у вас?</x>
+            <r>A kak u vas?</r>
+          </ru>
+          <de>Was ist mit dir, (Ihnen)?</de>
+          <pl>A Ty?</pl>
+          <es>¿y tú?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="112" type="word">
+        <translations>
+          <en>OK</en>
+          <ar>
+            <x>موافق</x>
+            <r>mowafiq</r>
+          </ar>
+          <ru>
+            <x>ОК</x>
+            <r>OK</r>
+          </ru>
+          <de>OK</de>
+          <pl>OK</pl>
+          <es>Bien</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="115" type="word">
+        <translations>
+          <en>See you</en>
+          <ar>
+            <x>إلى اللقاء</x>
+            <r>ila alliqa</r>
+          </ar>
+          <ru>
+            <x>Увидимся</x>
+            <r>Uvidimsea</r>
+          </ru>
+          <de>Wir sehen uns</de>
+          <pl>Do zobaczenia</pl>
+          <es>Hasta luego</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="114" type="word">
+        <translations>
+          <en>See you at home</en>
+          <ar>
+            <x>أراك في البيت</x>
+            <r>araka fi albait</r>
+          </ar>
+          <ru>
+            <x>Увидимся дома</x>
+            <r>Uvidimsea doma</r>
+          </ru>
+          <de>Wir sehen uns zu Hause</de>
+          <pl>Do zobaczenia w domu</pl>
+          <es>Nos vemos en casa</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="115" />
+          <choice ref="107" />
+          <choice ref="104" />
+          <choice ref="101" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <dialog did="116">
+        <among>
+          <speaker who="A" gender="M"></speaker>
+          <speaker who="B" gender="F"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>Hi! Who are you?</en>
+              <ar>
+                <x>مرحبا! من أنت؟</x>
+                <r>marhaban! man anti?</r>
+              </ar>
+              <ru>
+                <x>Привет! Вы кто?</x>
+                <r>Privet! Vi kto?</r>
+              </ru>
+              <de>Hallo! Wer sind Sie?</de>
+              <pl>Cześć! Kim jesteś?</pl>
+              <es>¡Hola! ¿Quién eres?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <wref wid="102" />
+          </line>
+          <line by="A">
+            <translations>
+              <en>Hi Dina, I am Omar.</en>
+              <ar>
+                <x>مرحبا دينا, أنا عمر</x>
+                <r>marhaban dina, ana omar</r>
+              </ar>
+              <ru>
+                <x>Привет Дина, Я Омар.</x>
+                <r>Privet Dina, Ia Omar.</r>
+              </ru>
+              <de>Hallo Dina, ich bin Omar.</de>
+              <pl>Cześć Dina! Jestem Omar.</pl>
+              <es>Hola Dina, Soy Omar.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Nice to meet you, Omar!</en>
+              <ar>
+                <x>تشرفت بلقائك عمر!</x>
+                <r>tasharaftu beliqaika omar!</r>
+              </ar>
+              <ru>
+                <x>Приятно познакомиться, Омар!</x>
+                <r>Prieatno poznakomitsea, Omar!</r>
+              </ru>
+              <de>Nett, Sie kennenzulernen, Omar!</de>
+              <pl>Miło Cię poznać, Omar!</pl>
+              <es>¡Encantada de  conocerte, Omar!</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+    <step>
+      <missingWordTest>
+        <dialogRefElement ref="116" fromLine="0" takeLines="2" />
+        <test>
+          <en>
+            <missing>you</missing>
+            <choices>
+              <choice>I</choice>
+              <choice>she</choice>
+              <choice>am</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>Soy</missing>
+            <choices>
+              <choice>Él</choice>
+              <choice>Ella</choice>
+              <choice>Un</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Ich</missing>
+            <choices>
+              <choice>Sie</choice>
+              <choice>Er</choice>
+              <choice>Bin</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>من أنت؟</x>
+              <r>man anta?</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>إلى اللقاء</x>
+                <r>ila allika</r>
+              </choice>
+              <choice>
+                <x>أنا</x>
+                <r>ana</r>
+              </choice>
+            </choices>
+          </ar>
+          <ru>
+            <missing>
+              <x>Вы</x>
+              <r>Vi</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>я</x>
+                <r>Ia</r>
+              </choice>
+              <choice>
+                <x>она</x>
+                <r>Ona</r>
+              </choice>
+              <choice>
+                <x>он</x>
+                <r>On</r>
+              </choice>
+            </choices>
+          </ru>
+        </test>
+      </missingWordTest>
+    </step>
+  </steps>
+</level>
