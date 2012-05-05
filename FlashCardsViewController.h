@@ -10,4 +10,6 @@
 
 @interface FlashCardsViewController : UIViewController
 
+@property (nonatomic) int levelNumber;
+
 @end

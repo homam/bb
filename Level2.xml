@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="2">
+    <name>
+      <en>My name is</en>
+      <ar>
+        <x>اسمي هو</x>
+        <r>ismi howa</r>
+      </ar>
+      <de>Mein Name ist</de>
+      <pl>Nazywam się</pl>
+      <es>Mi nombre es</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="201" type="word">
+        <translations>
+          <en>My name is Dina.</en>
+          <ar>
+            <x>إسمي دينا</x>
+            <r>ismi dina.</r>
+          </ar>
+          <de>Mein Name ist Dina.</de>
+          <pl>Mam na imię Dina.</pl>
+          <es>Me llamo Dina.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="202" type="word">
+        <translations>
+          <en>What is your name?</en>
+          <ar>
+            <x>ما إسمك؟</x>
+            <r>ma ismuk?</r>
+          </ar>
+          <de>Wie ist Ihr Name?</de>
+          <pl>Jak masz na imię?</pl>
+          <es>¿Cómo te llamas?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <missingWordTest>
+        <conversation>
+          <among>
+            <speaker who="A" gender="M"></speaker>
+            <speaker who="B" gender="F"></speaker>
+          </among>
+          <lines>
+            <line by="A">
+              <translations>
+                <en>What is your name?</en>
+                <ar>
+                  <x>ما إسمك؟</x>
+                  <r>ma ismuki?</r>
+                </ar>
+                <de>Wie ist Ihr Name?</de>
+                <es>¿Cómo te llamas?</es>
+              </translations>
+            </line>
+            <line by="B">
+              <translations>
+                <en>My name is Dina.</en>
+                <ar>
+                  <x>إسمي دينا</x>
+                  <r>ismi dina.</r>
+                </ar>
+                <de>Mein Name ist Dina.</de>
+                <es>Me llamo Dina.</es>
+              </translations>
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>What is</missing>
+            <choices>
+              <choice>Who is</choice>
+              <choice>Am I</choice>
+            </choices>
+          </en>
+          <de>
+            <missing>Wie ist</missing>
+            <choices>
+              <choice>Wer ist</choice>
+              <choice>Bin ich</choice>
+            </choices>
+          </de>
+          <es>
+            <missing>Cómo te</missing>
+            <choices>
+              <choice>Quién es</choice>
+              <choice>Estoy</choice>
+            </choices>
+          </es>
+          <ar>
+            <missing>
+              <x>ما</x>
+              <r>ma</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>ماذا</x>
+                <r>maza</r>
+              </choice>
+              <choice>
+                <x>هل</x>
+                <r>hal</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <word wid="203" type="word">
+        <translations>
+          <en>Nice to meet you.</en>
+          <ar>
+            <x>تشرفت بلقائك</x>
+            <r>tasharaftu beliqaik</r>
+          </ar>
+          <de>Schön, Sie kennen zu lernen.</de>
+          <pl>Miło Cię poznać.</pl>
+          <es>Encantado de conocerte.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="204" type="word">
+        <translations>
+          <en>Where are you from?</en>
+          <ar>
+            <x>من أين أنت؟</x>
+            <r>min aina ant?</r>
+          </ar>
+          <de>Woher kommen Sie?</de>
+          <pl>Skąd pochodzisz?</pl>
+          <es>¿De dónde eres?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="205" type="word">
+        <translations>
+          <en>I am from UAE</en>
+          <ar>
+            <x>أنا من الإمارات</x>
+            <r>ana min al-emarat</r>
+          </ar>
+          <de>Ich bin aus den Vereinigten Arabischen Emiraten</de>
+          <pl>Jestem z ZEA</pl>
+          <es>Soy de UAE</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="206" type="word">
+        <translations>
+          <en>I am British</en>
+          <ar>
+            <x>أنا بريطاني</x>
+            <r>ana britani</r>
+          </ar>
+          <de>Ich bin Britisch</de>
+          <pl>Jestem Brytyjką</pl>
+          <es>Yo soy de Gran Bretaña</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <missingWordTest>
+        <conversation>
+          <among>
+            <speaker who="A" gender="F"></speaker>
+            <speaker who="B" gender="M"></speaker>
+          </among>
+          <lines>
+            <line by="A">
+              <wref wid="204" />
+            </line>
+            <line by="B">
+              <wref wid="206" />
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>Where are you from</missing>
+            <choices>
+              <choice>Where am I from</choice>
+              <choice>What is your name</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>De dónde eres</missing>
+            <choices>
+              <choice>De dónde soy</choice>
+              <choice>Cómo te llamas</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Woher kommen Sie</missing>
+            <choices>
+              <choice>Wo komme ich her</choice>
+              <choice>Wie ist Ihr Name</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>من أين أنت</x>
+              <r>min aina ant</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>كيف حالك</x>
+                <r>kaifa haluka</r>
+              </choice>
+              <choice>
+                <x>ما هو اسمك</x>
+                <r>ma hova ismuka</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <word wid="211" type="word">
+        <translations>
+          <en>Good morning!</en>
+          <ar>
+            <x>صباح الخير!</x>
+            <r>sabahu alkhair!</r>
+          </ar>
+          <de>Guten Morgen!</de>
+          <pl>Dzień dobry!</pl>
+          <es>¡Buenos días!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="208" type="word">
+        <translations>
+          <en>Morning</en>
+          <ar>
+            <x>صباح</x>
+            <r>sabah</r>
+          </ar>
+          <de>Morgen</de>
+          <pl>Rano</pl>
+          <es>Buenos días</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="212" type="word">
+        <translations>
+          <en>Good evening!</en>
+          <ar>
+            <x>مساء الخير!</x>
+            <r>masao alkhair!</r>
+          </ar>
+          <de>Guten Abend!</de>
+          <pl>Dobry wieczór!</pl>
+          <es>¡Buenas tardes!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="207" type="word">
+        <translations>
+          <en>Evening</en>
+          <ar>
+            <x>مساء</x>
+            <r>masa'</r>
+          </ar>
+          <de>Abend</de>
+          <pl>Wieczór</pl>
+          <es>Buenas tardes</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="207" />
+          <choice ref="208" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="209" type="word">
+        <translations>
+          <en>Noon</en>
+          <ar>
+            <x>ظهيرة</x>
+            <r>thahira</r>
+          </ar>
+          <de>Mittag</de>
+          <pl>Południe</pl>
+          <es>Mediodía</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="210" type="word">
+        <translations>
+          <en>Night</en>
+          <ar>
+            <x>ليل</x>
+            <r>lail</r>
+          </ar>
+          <de>Nacht</de>
+          <pl>Noc</pl>
+          <es>Noche</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="207" />
+          <choice ref="208" />
+          <choice ref="209" />
+          <choice ref="210" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="213" type="word">
+        <translations>
+          <en>Good night!</en>
+          <ar>
+            <x>تصبح على خير!</x>
+            <r>tusbih a'ala khair!</r>
+          </ar>
+          <de>Gute Nacht!</de>
+          <pl>Dobranoc!</pl>
+          <es>¡Buenas noches!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="214" type="word">
+        <translations>
+          <en>Good afternoon!</en>
+          <ar>
+            <x>مساء الخير!</x>
+            <r>massao alkhair!</r>
+          </ar>
+          <de>Guten Tag!</de>
+          <pl>Dzień dobry!</pl>
+          <es>¡Buenas tardes!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="213" />
+          <choice ref="214" />
+          <choice ref="211" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="213" />
+          <choice ref="212" />
+          <choice ref="211" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="215" type="word">
+        <translations>
+          <en>Excuse me</en>
+          <ar>
+            <x>معذرة</x>
+            <r>ma'athira</r>
+          </ar>
+          <de>Entschuldigung</de>
+          <pl>Przepraszam</pl>
+          <es>Disculpa</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <missingWordTest>
+        <conversation>
+          <among>
+            <speaker who="A" gender="F"></speaker>
+            <speaker who="B" gender="M"></speaker>
+          </among>
+          <lines>
+            <line by="A">
+              <translations>
+                <en>Good morning, how are you?</en>
+                <ar>
+                  <x>صباح الخير، كيف حالك؟</x>
+                  <r>Sabah al-khair. kaif haluka?</r>
+                </ar>
+                <de>Guten Morgen, wie geht es dir?</de>
+                <es>¡Buenos días! ¿Cómo estás?</es>
+              </translations>
+            </line>
+            <line by="B">
+              <translations>
+                <en>I am OK. Thank you!</en>
+                <ar>
+                  <x>أنا بخير. شكرا لك!</x>
+                  <r>Ana bekhair. Shukran laka.</r>
+                </ar>
+                <de>Ich bin OK. Vielen Dank!</de>
+                <es>Yo estoy bien. ¡Gracias!</es>
+              </translations>
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>how are you</missing>
+            <choices>
+              <choice>what is your name</choice>
+              <choice>who are you</choice>
+            </choices>
+          </en>
+          <de>
+            <missing>wie geht es dir</missing>
+            <choices>
+              <choice>wie ist dein Name</choice>
+              <choice>wer bist du</choice>
+            </choices>
+          </de>
+          <es>
+            <missing>Cómo estás</missing>
+            <choices>
+              <choice>Cómo te llamas</choice>
+              <choice>Quién eres</choice>
+            </choices>
+          </es>
+          <ar>
+            <missing>
+              <x>كيف حالك</x>
+              <r>kaif haluka</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>ما إسمك</x>
+                <r>ma ismuki</r>
+              </choice>
+              <choice>
+                <x>من أنت</x>
+                <r>man anta</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <dialog did="216">
+        <among>
+          <speaker who="A" gender="M"></speaker>
+          <speaker who="B" gender="F"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>Excuse me, what is your name?</en>
+              <ar>
+                <x>المعذرة, ما إسمك؟</x>
+                <r>al-ma'athira, ma ismuki?</r>
+              </ar>
+              <de>Entschuldigung, wie ist Ihr Name?</de>
+              <pl>Przepraszam, jak masz na imię?</pl>
+              <es>¿Disculpa, cómo te llamas?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>My name is Dina. What is your name?</en>
+              <ar>
+                <x>إسمي دينا. ماإسمك؟</x>
+                <r>ismi dina. ma ismuka?</r>
+              </ar>
+              <de>Mein Name ist Dina. Wie ist Ihr Name?</de>
+              <pl>Mam na imię Dina. Jak masz na imię?</pl>
+              <es>Me llamo Dina. ¿Cómo te llamas?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>I am Omar. Nice to meet you.</en>
+              <ar>
+                <x>أنا عمر. تشرفت بلقائك</x>
+                <r>ana omar. tasharaftu beliqaik</r>
+              </ar>
+              <de>Ich bin Omar. Schön, Sie kennen zu lernen.</de>
+              <pl>Jestem Omar. Miło Cię poznać.</pl>
+              <es>Soy Omar. Encantado de conocerte</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Nice to meet you too.</en>
+              <ar>
+                <x>تشرفت بلقائك أيضاً</x>
+                <r>tasharaftu beliqaika aidan</r>
+              </ar>
+              <de>Schön, Sie zu treffen.</de>
+              <pl>Ciebie również.</pl>
+              <es>Yo también me alegro de conocerte.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+    <step>
+      <missingWordTest>
+        <conversation>
+          <among>
+            <speaker who="A" gender="M" />
+            <speaker who="B" gender="F" />
+          </among>
+          <lines>
+            <line by="A">
+              <dref did="216" line="1" />
+            </line>
+            <line by="B">
+              <wref wid="201" />
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>Excuse me</missing>
+            <choices>
+              <choice>Excuse you</choice>
+              <choice>Excuse I</choice>
+            </choices>
+          </en>
+          <de>
+            <missing>Entschuldigung</missing>
+            <choices>
+              <choice>Bin ich</choice>
+              <choice>Auf Wiedersehen</choice>
+            </choices>
+          </de>
+          <es>
+            <missing>Disculpa</missing>
+            <choices>
+              <choice>Bien</choice>
+              <choice>Encantado</choice>
+            </choices>
+          </es>
+          <ar>
+            <missing>
+              <x>المعذرة</x>
+              <r>al-ma'athira</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>عذر لك</x>
+                <r>odra laka</r>
+              </choice>
+              <choice>
+                <x>إلى</x>
+                <r>ila allika</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+  </steps>
+</level>

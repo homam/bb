@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="20">
+    <name>
+      <en>Travel Agent</en>
+      <ar>
+        <x>وكيل سفريات</x>
+        <r>wakil safariyyat</r>
+      </ar>
+      <de>Reisebüro</de>
+      <pl>Agent turystyczny</pl>
+      <es>Agente de viajes</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="2001" type="word">
+        <translations>
+          <en>Travel agent</en>
+          <ar>
+            <x>وكيل سفريات</x>
+            <r>wakil safariyyat</r>
+          </ar>
+          <de>Reisebüro</de>
+          <pl>Pracownik biura podróży</pl>
+          <es>Agente de viajes</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2002" type="word">
+        <translations>
+          <en>I would like to book a trip</en>
+          <ar>
+            <x>أريد أن احجز عطلة</x>
+            <r>urido an ahjiza a'autla</r>
+          </ar>
+          <de>Ich möchte eine Reise buchen</de>
+          <pl>Chcę wykupić wycieczkę</pl>
+          <es>Desearía reservar un viaje.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2003" type="word">
+        <translations>
+          <en>I want to travel in summer.</en>
+          <ar>
+            <x>أريد أن أسافر في الصيف.</x>
+            <r>urido an usafir fi alsaif</r>
+          </ar>
+          <de>Ich möchte im Sommer reisen.</de>
+          <pl>Chcę wyjechać w podróż tego lata.</pl>
+          <es>Quiero viajar en verano.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2015" type="word">
+        <translations>
+          <en>Honeymoon</en>
+          <ar>
+            <x>شهر عسل</x>
+            <r>shahro 'asal</r>
+          </ar>
+          <de>Flitterwochen</de>
+          <pl>Podróż poślubna</pl>
+          <es>Luna de miel</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2016" type="word">
+        <translations>
+          <en>Frequent flyer</en>
+          <ar>
+            <x>مسافر دائم</x>
+            <r>mosafer dae'm</r>
+          </ar>
+          <de>Vielflieger</de>
+          <pl>Uczestnik programu „Frequent flyer”</pl>
+          <es>Viajero frecuente</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2005" type="word">
+        <translations>
+          <en>I would like to go to paris</en>
+          <ar>
+            <x>أريد الذهاب إلى باريس</x>
+            <r>urido althahaba ila paris</r>
+          </ar>
+          <de>Ich möchte nach Paris reisen</de>
+          <pl>Chciałbym/chciałabym pojechać do Paryża</pl>
+          <es>Me gustaría ir a París</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2006" type="word">
+        <translations>
+          <en>I want to travel to a city</en>
+          <ar>
+            <x>أريد السفر إلى مدينة</x>
+            <r>urido alsafara il madina</r>
+          </ar>
+          <de>Ich möchte in eine Stadt reisen</de>
+          <pl>Chcę pojechać do miasta</pl>
+          <es>Quiero viajar a una ciudad</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2007" type="word">
+        <translations>
+          <en>I would like a stop over in Madrid</en>
+          <ar>
+            <x>أريد التوقف في مدريد</x>
+            <r>urido altawaquf fi Madrid</r>
+          </ar>
+          <de>Ich möchte in Madrid einen Zwischenstop einlegen</de>
+          <pl>Chcę zatrzymać się w Madrycie</pl>
+          <es>Me gustaría hacer una parada en Madrid</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2008" type="word">
+        <translations>
+          <en>To an island</en>
+          <ar>
+            <x>إلى جزيرة</x>
+            <r>ila jazira</r>
+          </ar>
+          <de>Zu einer Insel</de>
+          <pl>Na wyspę</pl>
+          <es>A una isla</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2009" type="word">
+        <translations>
+          <en>What is the ticket price?</en>
+          <ar>
+            <x>ما هو سعر التذكرة؟</x>
+            <r>ma howa sia'ar altathkara?</r>
+          </ar>
+          <de>Wie hoch ist der Preis für das Ticket?</de>
+          <pl>Ile kosztuje bilet?</pl>
+          <es>¿Cuánto cuesta el billete?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2010" type="word">
+        <translations>
+          <en>What is the package price?</en>
+          <ar>
+            <x>ما هو سعر الباقة؟</x>
+            <r>ma howa sia'ar al baqa?</r>
+          </ar>
+          <de>Wie hoch ist der Arrangementpreis?</de>
+          <pl>Ile kosztuje pakiet?</pl>
+          <es>¿Cuánto cuesta el paquete?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2011" type="word">
+        <translations>
+          <en>We are a group</en>
+          <ar>
+            <x>نحن مجموعة </x>
+            <r>nahnu majmoua'a</r>
+          </ar>
+          <de>Wir sind eine Gruppe</de>
+          <pl>Jesteśmy grupą</pl>
+          <es>Somos un grupo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2012" type="word">
+        <translations>
+          <en>Just by myself</en>
+          <ar>
+            <x>أنا وحدي</x>
+            <r>ana wahdi</r>
+          </ar>
+          <de>Nur für mich alleine</de>
+          <pl>Tylko ja</pl>
+          <es>Solo yo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="2013" type="word">
+        <translations>
+          <en>Me and my family</en>
+          <ar>
+            <x>أنا و عائلتي</x>
+            <r>ana wa a'ailati</r>
+          </ar>
+          <de>Meine Familie und ich</de>
+          <pl>Ja i moja rodzina</pl>
+          <es>Yo y mi familia</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="2012" />
+          <choice ref="2013" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <dialog did="2014">
+        <among>
+          <speaker who="A" gender="M"></speaker>
+          <speaker who="B" gender="F">
+            <name>
+              <en>Travel agent</en>
+              <ar>
+                <x>وكيل سفريات</x>
+                <r>wakil safariyyat</r>
+              </ar>
+              <de>Reiseberater</de>
+              <pl>Agent biura podróży</pl>
+              <es>Agente de viajes</es>
+            </name>
+          </speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>I would like to book a vacation</en>
+              <ar>
+                <x>أريد أن حجز عطلة</x>
+                <r>urido an ahjiza a'autla</r>
+              </ar>
+              <de>Ich möchte einen Urlaub buchen</de>
+              <pl>Chciałbym wykupić wakacje</pl>
+              <es>Me gustaría reservar unas vacaciones</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>where would you like to go?</en>
+              <ar>
+                <x>أين تريد الذهاب؟</x>
+                <r>ayna turido althahab?</r>
+              </ar>
+              <de>wo möchten Sie hinreisen?</de>
+              <pl>Dokąd chciałby Pan pojechać?</pl>
+              <es>¿Dónde te gustaría ir?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>I would like to go to paris</en>
+              <ar>
+                <x>أريد الذهاب إلى باريس</x>
+                <r>urido althahab ila paris?</r>
+              </ar>
+              <de>Ich möchte nach Paris reisen</de>
+              <pl>Chciałbym pojechać do Paryża</pl>
+              <es>Me gustaría ir a París</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Only you?</en>
+              <ar>
+                <x>أنت فقط؟</x>
+                <r>anta faqat?</r>
+              </ar>
+              <de>Nur Sie?</de>
+              <pl>Tylko Pan?</pl>
+              <es>¿Tú solo?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>No, me and my family.</en>
+              <ar>
+                <x>لا, أنا و عائلتي</x>
+                <r>la, ana wa a'ailati</r>
+              </ar>
+              <de>Nein, ich und meine Familie.</de>
+              <pl>Nie. Ja i moja rodzina.</pl>
+              <es>No, yo y mi fanilia.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>

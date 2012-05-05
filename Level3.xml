@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="3">
+    <name>
+      <en>My profession</en>
+      <ar>
+        <x>عملي هو</x>
+        <r>a'amali howa</r>
+      </ar>
+      <de>Mein Beruf</de>
+      <pl>Moja profesja</pl>
+      <es>Mi profesión</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="301" type="word">
+        <translations>
+          <en>What is your job?</en>
+          <ar>
+            <x>ما هو عملك؟</x>
+            <r>ma howa a'amaluk?</r>
+          </ar>
+          <de>Was arbeiten Sie?</de>
+          <pl>Czym się zajmujesz?</pl>
+          <es>¿En qué trabajas?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="302" type="word">
+        <translations>
+          <en>I am a manager.</en>
+          <ar>
+            <x>أنا مدير</x>
+            <r>ana mudir</r>
+          </ar>
+          <de>Ich bin Manager.</de>
+          <pl>Jestem menadżerem.</pl>
+          <es>Soy director.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="303" type="word">
+        <translations>
+          <en>I am a student.</en>
+          <ar>
+            <x>أنا طالب</x>
+            <r>ana talib</r>
+          </ar>
+          <de>Ich bin Student.</de>
+          <pl>Jestem studentem/studentką.</pl>
+          <es>Soy estudiante.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="304" type="word">
+        <translations>
+          <en>I am a businessman.</en>
+          <ar>
+            <x>أنا رجل أعمال</x>
+            <r>ana rajulo a'amal</r>
+          </ar>
+          <de>Ich bin Geschäftsmann.</de>
+          <pl>Jestem biznesmenem.</pl>
+          <es>Soy hombre de negocios.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="306" type="word">
+        <translations>
+          <en>I am a doctor.</en>
+          <ar>
+            <x>أنا طبيب</x>
+            <r>ana tabib</r>
+          </ar>
+          <de>Ich bin Arzt.</de>
+          <pl>Jestem lekarzem.</pl>
+          <es>Soy médico.</es>
+        </translations>
+      </word>
+    </step>
+    <!-- missing world (I am) -->
+    <step>
+      <missingWordTest>
+        <conversation>
+          <among>
+            <speaker who="A" gender="M" />
+            <speaker who="B" gender="M">
+              <name>
+                <en>Sami</en>
+                <de>Sami</de>
+                <pl>Sami</pl>
+                <es>Sami</es>
+                <ar>
+                  <x>سامي</x>
+                  <r>Sami</r>
+                </ar>
+              </name>
+            </speaker>
+          </among>
+          <lines>
+            <line by="A">
+              <dref did="317" line="1" />
+            </line>
+            <line by="B">
+              <wref wid="302" />
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>I am</missing>
+            <choices>
+              <choice>I have</choice>
+              <choice>I do</choice>
+              <choice>I were</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>Soy</missing>
+            <choices>
+              <choice>Es</choice>
+              <choice>Ellos</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Ich bin</missing>
+            <choices>
+              <choice>Ich habe</choice>
+              <choice>Ich tue</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>أنا</x>
+              <r>ana</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>أنت</x>
+                <r>anta</r>
+              </choice>
+              <choice>
+                <x>إنهم</x>
+                <r>inahum</r>
+              </choice>
+              <choice>
+                <x>أنتما</x>
+                <r>antuma</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <!-- multiple choice -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="302" />
+          <choice ref="303" />
+          <choice ref="304" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="308" type="word">
+        <translations>
+          <en>Manager</en>
+          <ar>
+            <x>مدير</x>
+            <r>mudir</r>
+          </ar>
+          <de>Manager</de>
+          <pl>Menadżer</pl>
+          <es>Director</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="311" type="word">
+        <translations>
+          <en>Student</en>
+          <ar>
+            <x>طالب</x>
+            <r>talib</r>
+          </ar>
+          <de>Student</de>
+          <pl>Student/studentka</pl>
+          <es>Estudiante</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="318" type="word">
+        <translations>
+          <en>Businessman</en>
+          <ar>
+            <x>رجل أعمال</x>
+            <r>rajulo a'amal</r>
+          </ar>
+          <de>Geschäftsmann</de>
+          <pl>Biznesmen</pl>
+          <es>Hombre de negocios</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="314" type="word">
+        <translations>
+          <en>Doctor</en>
+          <ar>
+            <x>طبيب</x>
+            <r>tabib</r>
+          </ar>
+          <de>Arzt</de>
+          <pl>Lekarz</pl>
+          <es>Médico</es>
+        </translations>
+      </word>
+    </step>
+    <!-- multiple choice -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="308" />
+          <choice ref="318" />
+          <choice ref="314" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="313" type="word">
+        <translations>
+          <en>Teacher</en>
+          <ar>
+            <x>مدرس</x>
+            <r>mudariss</r>
+          </ar>
+          <de>Lehrer</de>
+          <pl>Nauczyciel/nauczycielka</pl>
+          <es>Profesor</es>
+        </translations>
+      </word>
+    </step>
+    <!-- multiple choice -->
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="311" />
+          <choice ref="313" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="309" type="word">
+        <translations>
+          <en>Taxi driver</en>
+          <ar>
+            <x>سائق سيارة أجرة</x>
+            <r>sai'q sayyarat ujra</r>
+          </ar>
+          <de>Taxifahrer</de>
+          <pl>Kierowca taksówki</pl>
+          <es>Taxista</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="310" type="word">
+        <translations>
+          <en>Cook</en>
+          <ar>
+            <x>طباخ</x>
+            <r>tabbakh</r>
+          </ar>
+          <de>Koch</de>
+          <pl>Kucharz</pl>
+          <es>Cocinero</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="307" type="word">
+        <translations>
+          <en>Singer</en>
+          <ar>
+            <x>مغني</x>
+            <r>mughani</r>
+          </ar>
+          <de>Sänger</de>
+          <pl>Piosenkarz/piosenkarka</pl>
+          <es>Cantante</es>
+        </translations>
+      </word>
+    </step>
+    <!-- multiple choice -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="309" />
+          <choice ref="310" />
+          <choice ref="307" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="314" />
+          <choice ref="308" />
+          <choice ref="318" />
+          <choice ref="309" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="315" type="word">
+        <translations>
+          <en>Office</en>
+          <ar>
+            <x>مكتب</x>
+            <r>maktab</r>
+          </ar>
+          <de>Büro</de>
+          <pl>Biuro</pl>
+          <es>Oficina</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="312" type="word">
+        <translations>
+          <en>I work for..</en>
+          <ar>
+            <x>أعمل لدى...</x>
+            <r>a'amal lada…</r>
+          </ar>
+          <de>Ich arbeite für..</de>
+          <pl>Pracuję dla…</pl>
+          <es>Trabajo para..</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="305" type="word">
+        <translations>
+          <en>I run my own business.</en>
+          <ar>
+            <x>أدير عملي الخاص</x>
+            <r>udiro a'amali alkhass</r>
+          </ar>
+          <de>Ich betreibe mein eigenes Geschäft.</de>
+          <pl>Prowadzę własną działalność.</pl>
+          <es>Tengo mi propio negocio.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="316" type="word">
+        <translations>
+          <en>I am working in an office.</en>
+          <ar>
+            <x>أعمل في مكتب</x>
+            <r>a'amal fi maktab.</r>
+          </ar>
+          <de>Ich arbeite in einem Büro.</de>
+          <pl>Pracuję w biurze.</pl>
+          <es>Trabajo en una oficina.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <dialog did="317">
+        <among>
+          <speaker who="A" gender="M" />
+          <speaker who="B" gender="M">
+            <name>
+              <en>Sami</en>
+              <ar>
+                <x>سامي</x>
+                <r>Sami</r>
+              </ar>
+              <de>Sami</de>
+              <pl>Sami</pl>
+              <es>Sami</es>
+            </name>
+          </speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>What do you do?</en>
+              <ar>
+                <x>ماذا تعمل؟</x>
+                <r>matha ta'amal?</r>
+              </ar>
+              <de>Was tun Sie?</de>
+              <pl>Czym się zajmujesz?</pl>
+              <es>¿A qué te dedicas?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>I am a singer!</en>
+              <ar>
+                <x>أنا مغني!</x>
+                <r>ana mughani!</r>
+              </ar>
+              <de>Ich bin ein Sänger!</de>
+              <pl>Jestem piosenkarzem/piosenkarką!</pl>
+              <es>¡Soy cantante!</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>That is nice!</en>
+              <ar>
+                <x>هذا لطيف!</x>
+                <r>hatha latif!</r>
+              </ar>
+              <de>Das ist schön!</de>
+              <pl>To miło!</pl>
+              <es>¡Es genial!</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Are you an employee?</en>
+              <ar>
+                <x>هل أنت موظف؟</x>
+                <r>hal anta mowathaf?</r>
+              </ar>
+              <de>Sind Sie angestellt?</de>
+              <pl>Czy jesteś pracownikiem?</pl>
+              <es>¿Eres un empleado?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>No. I am a student.</en>
+              <ar>
+                <x>لا. أنا طالب</x>
+                <r>la. Ana talib</r>
+              </ar>
+              <de>Nein, ich bin Student.</de>
+              <pl>Nie. Jestem studentem/studentką.</pl>
+              <es>No, soy estudiante.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+    <step>
+      <missingWordTest>
+        <dialogRefElement ref="317" fromLine="0" takeLines="2" />
+        <test>
+          <en>
+            <missing>What do you do</missing>
+            <choices>
+              <choice>How are you</choice>
+              <choice>Who are you</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>A qué te dedicas</missing>
+            <choices>
+              <choice>Cómo estás</choice>
+              <choice>Quién eres</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Was tun Sie</missing>
+            <choices>
+              <choice>Wie geht es Ihnen</choice>
+              <choice>Wer sind Sie</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>ماذا تعمل</x>
+              <r>matha ta'amal</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>كيف حالك</x>
+                <r>kaif haluka</r>
+              </choice>
+              <choice>
+                <x>من أنت</x>
+                <r>man anta</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+  </steps>
+</level>

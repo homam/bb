@@ -8,32 +8,68 @@
 
 #import "SingleFlashCardViewController.h"
 #import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import "BabelbayMyWords.h"
 
-@interface SingleFlashCardViewController ()
+@interface SingleFlashCardViewController () 
 
-- (IBAction)playButtonPressed;
-- (IBAction)nextButtonPressed;
-- (IBAction)backButtonPressed;
 @property (weak, nonatomic) IBOutlet UILabel *pageNumberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *wordInTargetLabel;
 @property (weak, nonatomic) IBOutlet UILabel *wordInNativeLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *wordImageView;
 
+
 @end
 
-@implementation SingleFlashCardViewController
+@implementation SingleFlashCardViewController 
+
+-(void)downloadAsyncAndExecMain:(NSURL *)url then: (void(^)(NSData *)) continuation{
+    dispatch_queue_t downloadQ = dispatch_queue_create("download-image", NULL);
+    dispatch_async(downloadQ, ^(void) {
+        
+        NSData *data = [[NSData alloc] initWithContentsOfURL:url];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            continuation(data);
+        });
+        
+    });
+    dispatch_release(downloadQ);
+}
+
+-(void)doAsync:(id(^)())task then:(void(^)(id)) continuation{
+    dispatch_queue_t downloadQ = dispatch_queue_create("doAsync", NULL);
+    dispatch_async(downloadQ, ^(void) {
+    
+        id result = task();
+        dispatch_async(dispatch_get_main_queue(), ^{
+            continuation(result);
+        });
+        
+    });
+    dispatch_release(downloadQ);
+}
+
 
 @synthesize navigationDelegate = _navigationDelegate;
 
+@synthesize word = _word;
+-(void)setWord:(BabelbayWord *)word{
+    _word = word;
+    [self doAsync:^(){return word.image;} then:^(id img){ self.wordImageView.image = img; }];
+    [self doAsync:^(){return word.audio;} then:^(id aud){ self.audioData = aud; }];
+}
+
+@synthesize audioData = _audioData;
 @synthesize wordInTargetLabel = _wordInTargetLabel;
 @synthesize wordInNativeLabel = _wordInNativeLabel;
 @synthesize wordImageView = _wordImageView;
 @synthesize pageNumberLabel = _pageNumberLabel;
 
+
+
 @synthesize wid = _wid;
--(void) setWid:(NSNumber *)wid{
-    _wid = wid;
-    self.wordImageView.image = [UIImage imageNamed:[[self.wid stringValue] stringByAppendingString:@".jpg"]];
+-(int)wid{
+    return self.word.wid;
 }
 
 @synthesize wordInTarget = _wordInTarget;
@@ -56,32 +92,12 @@
     [self.view setNeedsDisplay];
 }
 
--(IBAction)playButtonPressed {
-    
-    NSString *widString =  [self.wid stringValue];
-    CFBundleRef mainBundle = CFBundleGetMainBundle();
-    CFURLRef soundUrlRef= CFBundleCopyResourceURL(mainBundle, (__bridge CFStringRef) widString, CFSTR("mp3"), NULL);
-    
-    SystemSoundID soundID; 
-    //AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)self.soundUrl, &soundID); 
-    AudioServicesCreateSystemSoundID(soundUrlRef, &soundID); 
-    AudioServicesPlaySystemSound (soundID);
-    
-}
 
-- (IBAction)nextButtonPressed {
-    [self.navigationDelegate nextPage];
-}
-
-- (IBAction)backButtonPressed {
-    [self.navigationDelegate previousPage];
-}
 
 
 -(void)viewWillAppear:(BOOL)animated{
-   // self.pageNumberLabel.text = [[NSString alloc] initWithFormat:@"%i",self.pageNumber];
+    [super viewWillAppear:animated];
 }
-
 
 
 
@@ -89,6 +105,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //self.nextButton.backgroundColor = [UIColor blackColor];
 }
 
 - (void)viewDidUnload

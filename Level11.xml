@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="11">
+    <name>
+      <en>Cinema</en>
+      <ar>
+        <x>السينما</x>
+        <r>alcinema</r>
+      </ar>
+      <de>Kino</de>
+      <pl>Kino</pl>
+      <es>Cine</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="1101" type="word">
+        <translations>
+          <en>Cinema</en>
+          <ar>
+            <x>السينما</x>
+            <r>alcinema</r>
+          </ar>
+          <de>Kino</de>
+          <pl>Kino</pl>
+          <es>Cine</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1102" type="word">
+        <translations>
+          <en>Would you like to go to the cinema?</en>
+          <ar>
+            <x>هل ترغب في الذهاب إلى السينما؟</x>
+            <r>hal targhab fi althahab-i ila alcinema?</r>
+          </ar>
+          <de>Möchten Sie mit mir ins Kino gehen?</de>
+          <pl>Czy chcesz iść do kina?</pl>
+          <es>¿Te gustaría ir al cine?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1103" type="word">
+        <translations>
+          <en>What time are you going?</en>
+          <ar>
+            <x>متى أنت ذاهب؟</x>
+            <r>mata anta thahib?</r>
+          </ar>
+          <de>Um wie viel Uhr gehen Sie hin?</de>
+          <pl>O której idziesz?</pl>
+          <es>¿A qué hora vas'</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1104" type="word">
+        <translations>
+          <en>The movie starts at eight.</en>
+          <ar>
+            <x>يبدأ الفيلم الساعة الثامنة</x>
+            <r>yabdau alfilm alsa'a althamina</r>
+          </ar>
+          <de>Der Film beginnt um acht.</de>
+          <pl>Film rozpoczyna się o ósmej.</pl>
+          <es>La película empieza a las ocho.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1105" type="word">
+        <translations>
+          <en>See you there.</en>
+          <ar>
+            <x>أراك هناك</x>
+            <r>araka hunak</r>
+          </ar>
+          <de>Wir sehen uns dort.</de>
+          <pl>Do zobaczenia na miejscu.</pl>
+          <es>Nos vemos allí.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1106" type="word">
+        <translations>
+          <en>I want pop corn</en>
+          <ar>
+            <x>أريد البوشار</x>
+            <r>urido albushar</r>
+          </ar>
+          <de>Ich möchte Popcorn</de>
+          <pl>Chcę kupić popcorn</pl>
+          <es>Quiero palomitas</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1108" type="word">
+        <translations>
+          <en>Actor</en>
+          <ar>
+            <x>الممثل</x>
+            <r>almumathil</r>
+          </ar>
+          <de>Schauspieler</de>
+          <pl>Aktor</pl>
+          <es>Actor</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1107" type="word">
+        <translations>
+          <en>My favorite actor is</en>
+          <ar>
+            <x>الممثل المفضل لدي هو</x>
+            <r>almumathil almufadal-o ladaya howa</r>
+          </ar>
+          <de>Mein Lieblingsschauspieler ist</de>
+          <pl>Mój ulubiony aktor to</pl>
+          <es>Mi actor favorito es</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1109" type="word">
+        <translations>
+          <en>Actress</en>
+          <ar>
+            <x>الممثلة</x>
+            <r>almumathila</r>
+          </ar>
+          <de>Schauspielerin</de>
+          <pl>Aktorka</pl>
+          <es>Actriz</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1110" type="word">
+        <translations>
+          <en>Movie</en>
+          <ar>
+            <x>الفيلم</x>
+            <r>alfilm</r>
+          </ar>
+          <de>Film</de>
+          <pl>Film</pl>
+          <es>Película</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="1108" />
+          <choice ref="1109" />
+          <choice ref="1110" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="1111" type="word">
+        <translations>
+          <en>The movie was nice</en>
+          <ar>
+            <x>الفيلم كان جيداً</x>
+            <r>alfilm-o kana jayidan</r>
+          </ar>
+          <de>Der Film war schön</de>
+          <pl>Film był sympatyczny</pl>
+          <es>La película estuvo bien</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <dialog did="1112">
+        <among>
+          <speaker who="A" gender="M"></speaker>
+          <speaker who="B" gender="F"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>Would you like to go to the cinema?</en>
+              <ar>
+                <x>هل ترغبين في الذهاب إلى السينما؟</x>
+                <r>hal targhabin fi althahab ila alcinema?</r>
+              </ar>
+              <de>Möchten Sie ins Kino gehen?</de>
+              <pl>Czy chcesz iść do kina?</pl>
+              <es>¿Te gustaría ir al cine?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Yes sure. What time are you going?</en>
+              <ar>
+                <x>أكيد. متى أنت ذاهب؟</x>
+                <r>akid.mata anta thahib?</r>
+              </ar>
+              <de>Ja sicher. Um wie viel Uhr gehen Sie?</de>
+              <pl>Jasne! O której idziesz?</pl>
+              <es>Si, por supuesto. ¿A qué hora vas?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>The movie starts at eight.</en>
+              <ar>
+                <x>يبدأ الفيلم الساعة الثامنة</x>
+                <r>yabdau alfilm alsa'a althamina</r>
+              </ar>
+              <de>Der Film beginnt um acht.</de>
+              <pl>Film rozpoczyna się o ósmej.</pl>
+              <es>La película empieza a las ocho.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Great. See you there.</en>
+              <ar>
+                <x>عظيم. أراك هناك</x>
+                <r>a'athim. araka hunak.</r>
+              </ar>
+              <de>Großartig. Wir sehen uns dort.</de>
+              <pl>Świetnie. Do zobaczenia na miejscu.</pl>
+              <es>Genial. Nos vemos allí.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>

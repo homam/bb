@@ -25,15 +25,17 @@ typedef enum {
 
 @property (nonatomic, strong) NSMutableDictionary *texts;
 -(void)addTranslation:(BabelbayText *)text forLang:(BabelbayLanguage)lang;
+-(BabelbayText *)getText:(BabelbayLanguage)lang;
 
 @end
 
 
 @interface BabelbayWord : NSObject
-
+@property (nonatomic) NSInteger levelNumber;
 @property (nonatomic) NSInteger wid;
 @property (nonatomic, strong) BabelbayTranslationCollection *translations;
-
+@property (nonatomic, readonly, strong) UIImage *image;
+@property (nonatomic, readonly, strong) NSData *audio;
 @end
 
 
@@ -41,8 +43,11 @@ typedef enum {
 @interface BabelbayLevel : NSObject
 
 @property (nonatomic, strong) NSNumber *levelNumber;
+@property (nonatomic, strong) BabelbayTranslationCollection *name;
 -(BabelbayLevel *)init:(int)levelNumber;
-
 @property (nonatomic, strong) NSMutableArray *words;
+@property (nonatomic) NSUInteger numberOfSteps;
+
+-(BabelbayWord *) findWord:(int)wid;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BabelbayLevel.h"
 
 @protocol SingleFlashCardViewControllerNavigationDelegate
 
@@ -20,8 +21,9 @@
 @property (nonatomic) int pageNumber;
 @property (nonatomic,weak) NSString *wordInTarget;
 @property (nonatomic,weak)NSString *wordInNative;
-@property (nonatomic, weak) NSNumber *wid;
+@property (nonatomic, weak) BabelbayWord *word;
+@property (nonatomic, readonly) int wid;
 @property id<SingleFlashCardViewControllerNavigationDelegate> navigationDelegate;
-
+@property (weak, nonatomic) NSData *audioData;
 
 @end

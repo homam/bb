@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="4">
+    <name>
+      <en>Family</en>
+      <ar>
+        <x>العائلة</x>
+        <r>ala'aila</r>
+      </ar>
+      <de>Familie</de>
+      <pl>Rodzina</pl>
+      <es>Familia</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="401" type="word">
+        <translations>
+          <en>Are you married?</en>
+          <ar>
+            <x>هل أنت متزوج؟</x>
+            <r>hal anta moutazawij?</r>
+          </ar>
+          <de>Sind Sie verheiratet?</de>
+          <pl>Czy jesteś żonaty/zamężna?</pl>
+          <es>¿Estás casado?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="402" type="word">
+        <translations>
+          <en>I am married.</en>
+          <ar>
+            <x>أنا متزوج</x>
+            <r>ana moutazawij</r>
+          </ar>
+          <de>Ich bin verheiratet.</de>
+          <pl>Jestem żonaty/zamężna.</pl>
+          <es>Estoy casado.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="403" type="word">
+        <translations>
+          <en>I am single.</en>
+          <ar>
+            <x>أنا أعزب</x>
+            <r>ana a'azib</r>
+          </ar>
+          <de>Ich bin ledig.</de>
+          <pl>Jestem singlem/singielką.</pl>
+          <es>Estoy soltero.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <missingWordTest>
+        <conversation image="set4/402.jpg">
+          <among>
+            <speaker who="A" gender="F"></speaker>
+            <speaker who="B" gender="M"></speaker>
+          </among>
+          <lines>
+            <line by="A">
+              <wref wid="401" />
+            </line>
+            <line by="B">
+              <translations>
+                <en>Yes, I am married.</en>
+                <ar>
+                  <x>نعم، أنا متزوج</x>
+                  <r>na'am, ana moutazawij.</r>
+                </ar>
+                <de>Ja, ich bin verheiratet.</de>
+                <es>Sí, estoy casado.</es>
+              </translations>
+            </line>
+          </lines>
+        </conversation>
+        <test>
+          <en>
+            <missing>I am married</missing>
+            <choices>
+              <choice>I am single</choice>
+            </choices>
+          </en>
+          <de>
+            <missing>ich bin verheiratet</missing>
+            <choices>
+              <choice>Ich bin ledig</choice>
+            </choices>
+          </de>
+          <es>
+            <missing>estoy casado</missing>
+            <choices>
+              <choice>estoy soltero</choice>
+            </choices>
+          </es>
+          <ar>
+            <missing>
+              <x>أنا متزوج</x>
+              <r>ana moutazawij</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>أنا أعزب</x>
+                <r>ana a'azib</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <word wid="404" type="word">
+        <translations>
+          <en>Man</en>
+          <ar>
+            <x>رجل</x>
+            <r>rajul</r>
+          </ar>
+          <de>Mann</de>
+          <pl>Mężczyzna</pl>
+          <es>Hombre</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="405" type="word">
+        <translations>
+          <en>Woman</en>
+          <ar>
+            <x>امرأة</x>
+            <r>imraa</r>
+          </ar>
+          <de>Frau</de>
+          <pl>Kobieta</pl>
+          <es>Mujer</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="404" />
+          <choice ref="405" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="411" type="word">
+        <translations>
+          <en>Daughter</en>
+          <ar>
+            <x>ابنة</x>
+            <r>ibna</r>
+          </ar>
+          <de>Tochter</de>
+          <pl>Córka</pl>
+          <es>Hija</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="412" type="word">
+        <translations>
+          <en>Son</en>
+          <ar>
+            <x>ابن</x>
+            <r>ibn</r>
+          </ar>
+          <de>Sohn</de>
+          <pl>Syn</pl>
+          <es>Hijo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="411" />
+          <choice ref="412" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="407" type="word">
+        <translations>
+          <en>I have 3 sons.</en>
+          <ar>
+            <x>عندي 3 أطفال</x>
+            <r>indi 3 atfal</r>
+          </ar>
+          <de>Ich habe 3 Söhne.</de>
+          <pl>Mam 3 synów.</pl>
+          <es>Tengo 3 hijos.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="408" type="word">
+        <translations>
+          <en>I have 2 daughters.</en>
+          <ar>
+            <x>عندي ابنتان</x>
+            <r>indi ibnatan</r>
+          </ar>
+          <de>Ich habe 2 Töchter.</de>
+          <pl>Mam 2 córki.</pl>
+          <es>Tengo 3 hijas.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="409" type="word" image="set4/409.jpg">
+        <translations>
+          <en>She is my wife.</en>
+          <ar>
+            <x>إنها زوجتي</x>
+            <r>inaha zaoujati</r>
+          </ar>
+          <de>Sie ist meine Frau.</de>
+          <pl>To moja żona.</pl>
+          <es>Es mi esposa.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="410" type="word" image="step4/410.jpg">
+        <translations>
+          <en>He is my husband.</en>
+          <ar>
+            <x>إنه زوجي</x>
+            <r>inahu zaouji</r>
+          </ar>
+          <de>Er ist mein Ehemann.</de>
+          <pl>To mój mąż.</pl>
+          <es>Es mi marido.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <missingWordTest>
+        <sentenceRef ref="409" />
+        <test>
+          <en>
+            <missing>She</missing>
+            <choices>
+              <choice>He</choice>
+              <choice>I</choice>
+              <choice>You</choice>
+            </choices>
+          </en>
+          <de>
+            <missing>Sie ist</missing>
+            <choices>
+              <choice>Ich bin</choice>
+              <choice>Sie haben</choice>
+              <choice>Wir sind</choice>
+            </choices>
+          </de>
+          <es>
+            <missing>Es</missing>
+            <choices>
+              <choice>Somos</choice>
+              <choice>Yo</choice>
+            </choices>
+          </es>
+          <ar>
+            <missing>
+              <x>إنها</x>
+              <r>inaha</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>إنه</x>
+                <r>inahu</r>
+              </choice>
+              <choice>
+                <x>إنى</x>
+                <r>ini</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <missingWordTest>
+        <sentenceRef ref="410" />
+        <test>
+          <en>
+            <missing>He</missing>
+            <choices>
+              <choice>She</choice>
+              <choice>I</choice>
+              <choice>You</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>Es</missing>
+            <choices>
+              <choice>Somos</choice>
+              <choice>Yo</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Er ist</missing>
+            <choices>
+              <choice>Ich bin</choice>
+              <choice>Sie haben</choice>
+              <choice>Wir sind</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>إنه</x>
+              <r>inahu</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>إنها</x>
+                <r>inaha</r>
+              </choice>
+              <choice>
+                <x>إنى</x>
+                <r>ini</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <word wid="413" type="word">
+        <translations>
+          <en>This is my daugher.</en>
+          <ar>
+            <x>هذه ابنتي</x>
+            <r>hathihi ibnati</r>
+          </ar>
+          <de>Das ist meine Tochter.</de>
+          <pl>To jest moja córka.</pl>
+          <es>Esta es mi hija.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="414" type="word">
+        <translations>
+          <en>This is my son.</en>
+          <ar>
+            <x>هذا ابني</x>
+            <r>hatha ibni</r>
+          </ar>
+          <de>Das ist mein Sohn.</de>
+          <pl>To jest mój syn.</pl>
+          <es>Este es mi hijo.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="415" type="word">
+        <translations>
+          <en>I am a father.</en>
+          <ar>
+            <x>أنا أب</x>
+            <r>ana ab</r>
+          </ar>
+          <de>Ich bin ein Vater.</de>
+          <pl>Jestem ojcem.</pl>
+          <es>Soy padre.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="416" type="word">
+        <translations>
+          <en>I am a mother.</en>
+          <ar>
+            <x>أنا أم</x>
+            <r>ana om</r>
+          </ar>
+          <de>Ich bin eine Mutter.</de>
+          <pl>Jestem matką.</pl>
+          <es>Soy madre.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="417" />
+          <choice ref="418" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="417" type="word">
+        <translations>
+          <en>Father</en>
+          <ar>
+            <x>أب</x>
+            <r>ab</r>
+          </ar>
+          <de>Vater</de>
+          <pl>Ojciec</pl>
+          <es>Padre</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="418" type="word">
+        <translations>
+          <en>Mother</en>
+          <ar>
+            <x>أم</x>
+            <r>om</r>
+          </ar>
+          <de>Mutter</de>
+          <pl>Matka</pl>
+          <es>Madre</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="419" type="word">
+        <translations>
+          <en>Brother</en>
+          <ar>
+            <x>شقيق</x>
+            <r>shaqiq</r>
+          </ar>
+          <de>Bruder</de>
+          <pl>Brat</pl>
+          <es>Hermano</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="420" type="word">
+        <translations>
+          <en>Sister</en>
+          <ar>
+            <x>شقيقة</x>
+            <r>shaqiqa</r>
+          </ar>
+          <de>Schwester</de>
+          <pl>Siostra</pl>
+          <es>Hermana</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="419" />
+          <choice ref="420" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="421" type="word">
+        <translations>
+          <en>Uncle</en>
+          <ar>
+            <x>خال</x>
+            <r>khal</r>
+          </ar>
+          <de>Onkel</de>
+          <pl>Wuj</pl>
+          <es>Tío</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="422" type="word">
+        <translations>
+          <en>Aunt</en>
+          <ar>
+            <x>خالة</x>
+            <r>khala</r>
+          </ar>
+          <de>Tante</de>
+          <pl>Ciotka</pl>
+          <es>Tía</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="1">
+        <choicesByRef>
+          <choice ref="421" />
+          <choice ref="422" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <dialog did="423">
+        <among>
+          <speaker who="A" gender="F"></speaker>
+          <speaker who="B" gender="M"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>Are you single?</en>
+              <ar>
+                <x>هل أنت أعزب؟</x>
+                <r>hal anta a'azab?</r>
+              </ar>
+              <de>Sind Sie Single?</de>
+              <pl>Czy jesteś singlem?</pl>
+              <es>¿Estas soltero?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>No, I am married.</en>
+              <ar>
+                <x>لا، أنا متزوج.</x>
+                <r>la, ana moutazawiz</r>
+              </ar>
+              <de>Nein, ich bin verheiratet.</de>
+              <pl>Nie, jestem żonaty.</pl>
+              <es>No, estoy casado.</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>Who is your daugher?</en>
+              <ar>
+                <x>من هي إبنتك؟</x>
+                <r>man hya ibnatuk?</r>
+              </ar>
+              <de>Wer ist Ihre Tochter?</de>
+              <pl>Kim jest Twoja córka?</pl>
+              <es>¿Quién es tu hija?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>This is my daugher, Sarah.</en>
+              <ar>
+                <x>هذه إبنتي سارة.</x>
+                <r>hathihi ibnati ,Sarah.</r>
+              </ar>
+              <de>Das ist meine Tochter Sarah.</de>
+              <pl>To jest moja córka, Sarah.</pl>
+              <es>Esta es mi hija, Sarah.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>
