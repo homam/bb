@@ -77,6 +77,9 @@ BOOL _gestureScrolling = NO;
         frame.origin.y = 0;
         controller.view.frame = frame;
         controller.pageNumber = page;
+        controller.view.autoresizingMask = ( 
+                                            UIViewAutoresizingFlexibleHeight   );
+
         [self.scrollView addSubview:controller.view];
         
         // set data
@@ -84,6 +87,8 @@ BOOL _gestureScrolling = NO;
         controller.wordInTarget = [[word translations] getText:ar].target;
         controller.wordInNative = [[word translations] getText:en].native;
         controller.word   = word;
+
+        
 
         
         //controller.pageNumber 
@@ -178,6 +183,17 @@ BOOL _gestureScrolling = NO;
 -(void)longPressGesture:(UIGestureRecognizer *) gstr{
     if(gstr.state == UIGestureRecognizerStateEnded){
         [[self navigationController] setNavigationBarHidden:![self navigationController].navigationBarHidden animated:YES];
+        [UIView animateWithDuration:.3 animations:^{
+            CGRect frame = self.scrollView.frame;
+            frame.size.height = self.view.frame.size.height-50;
+            self.scrollView.frame = frame;
+        }];
+        NSLog(@"Frame: %@",  NSStringFromCGRect(self.view.frame));
+        for(UIView *v in self.view.subviews){
+            NSLog(@"Frame: %@ %@",  NSStringFromCGRect(v.frame), v);
+        }
+        
+        
     }
 }
 
