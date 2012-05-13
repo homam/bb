@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="17">
+    <name>
+      <en>Coffee shop</en>
+      <ar>
+        <x>المقهى</x>
+        <r>almaqha</r>
+      </ar>
+      <de>Cafe</de>
+      <pl>Coffee shop</pl>
+      <es>Cafetería</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="1701" type="word">
+        <translations>
+          <en>Coffee shop</en>
+          <ar>
+            <x>مقهى</x>
+            <r>maqha</r>
+          </ar>
+          <de>Café</de>
+          <pl>Kawiarnia</pl>
+          <es>Cafetería</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1702" type="word">
+        <translations>
+          <en>Coffee</en>
+          <ar>
+            <x>قهوة</x>
+            <r>qahwa</r>
+          </ar>
+          <de>Kaffee</de>
+          <pl>Kawa</pl>
+          <es>Café</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1703" type="word">
+        <translations>
+          <en>Tea</en>
+          <ar>
+            <x>شاي</x>
+            <r>shay</r>
+          </ar>
+          <de>Tee</de>
+          <pl>Herbata</pl>
+          <es>Té</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="1702" />
+          <choice ref="1703" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="1704" type="word">
+        <translations>
+          <en>I want a cup of coffee.</en>
+          <ar>
+            <x>أريد كوب من القهوة</x>
+            <r>oreed koub min alqahwa.</r>
+          </ar>
+          <de>Ich möchte eine Tasse Kaffee.</de>
+          <pl>Poproszę filiżankę kawy.</pl>
+          <es>Quiero una taza de café.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1705" type="word">
+        <translations>
+          <en>I want a cake.</en>
+          <ar>
+            <x>اريد كعكة</x>
+            <r>oreed ka'aka</r>
+          </ar>
+          <de>Ich möchte einen Kuchen.</de>
+          <pl>Poproszę ciasto.</pl>
+          <es>Quiero un pastel.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1706" type="word">
+        <translations>
+          <en>I need the bill.</en>
+          <ar>
+            <x>أريد الفاتورة.</x>
+            <r>urido alfatoura</r>
+          </ar>
+          <de>Ich brauche die Rechnung.</de>
+          <pl>Poproszę rachunek.</pl>
+          <es>Deme la cuenta.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1707" type="word">
+        <translations>
+          <en>Do you have free internet?</en>
+          <ar>
+            <x>هل لديك خدمة إنترنت مجانية؟</x>
+            <r>hal ladayka khidmat internet majanya?</r>
+          </ar>
+          <de>Haben Sie kostenfreien Internetzugang?</de>
+          <pl>Czy jest tu darmowy internet?</pl>
+          <es>¿Tiene internet gratis?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1708" type="word">
+        <translations>
+          <en>Small</en>
+          <ar>
+            <x>صغير</x>
+            <r>saghir</r>
+          </ar>
+          <de>Klein</de>
+          <pl>Mała</pl>
+          <es>Cortado</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1709" type="word">
+        <translations>
+          <en>Regular</en>
+          <ar>
+            <x>عادي</x>
+            <r>a'adi</r>
+          </ar>
+          <de>Regelmäßig</de>
+          <pl>Zwykła</pl>
+          <es>Normal</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1710" type="word">
+        <translations>
+          <en>Large</en>
+          <ar>
+            <x>كبير</x>
+            <r>kabir</r>
+          </ar>
+          <de>Groß</de>
+          <pl>Duża</pl>
+          <es>Largo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="1710" />
+          <choice ref="1709" />
+          <choice ref="1708" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="1711" type="word">
+        <translations>
+          <en>Sugar</en>
+          <ar>
+            <x>سكر</x>
+            <r>sukkar</r>
+          </ar>
+          <de>Zucker</de>
+          <pl>Cukier</pl>
+          <es>Azúcar</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1712" type="word">
+        <translations>
+          <en>Brown sugar</en>
+          <ar>
+            <x>سكر بني</x>
+            <r>sukkar bunni</r>
+          </ar>
+          <de>Brauner Zucker</de>
+          <pl>Brązowy cukier</pl>
+          <es>Azúcar moreno</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1713" type="word">
+        <translations>
+          <en>Skimmed milk</en>
+          <ar>
+            <x>حليب منزوع الدسم</x>
+            <r>halib manzoua'a aldasam</r>
+          </ar>
+          <de>Magermilch</de>
+          <pl>Odtłuszczone mleko</pl>
+          <es>Leche descremada</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <dialog did="1714">
+        <among>
+          <speaker who="A" gender="M"></speaker>
+          <speaker who="B" gender="F"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>I want a cup of coffee.</en>
+              <ar>
+                <x>أريد كوب من القهوة</x>
+                <r>oreed koub min alqahwa.</r>
+              </ar>
+              <de>Ich möchte eine Tasse Kaffee.</de>
+              <pl>Poproszę filiżankę kawy.</pl>
+              <es>Quiero una taza de café.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Yes, sure.</en>
+              <ar>
+                <x>نعم، بالتأكيد.</x>
+                <r>na'am ,biltakid</r>
+              </ar>
+              <de>Ja, sicher.</de>
+              <pl>Oczywiście, proszę.</pl>
+              <es>Si, por supuesto.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Skimmed milk?</en>
+              <ar>
+                <x>حليب منزوع الدسم؟</x>
+                <r>halib manzoua'a aldasam?</r>
+              </ar>
+              <de>Magermilch</de>
+              <pl>Z odtłuszczonym mlekiem?</pl>
+              <es>¿Leche descremada?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>Yes please.</en>
+              <ar>
+                <x>نعم, من فضلك.</x>
+                <r>na'am, min fadlik</r>
+              </ar>
+              <de>Ja, bitte.</de>
+              <pl>Tak, poproszę.</pl>
+              <es>Sí, por favor,</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>

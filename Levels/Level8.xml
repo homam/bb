@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<level xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="8">
+    <name>
+      <en>Colors/ Shopping</en>
+      <ar>
+        <x>الالوان/ التسوّق</x>
+        <r>alalwan/ altasawwoq</r>
+      </ar>
+      <de>Farben/ Einkaufen</de>
+      <pl>Kolory/ zakupy</pl>
+      <es>Colores/ compra</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word type="word" wid="804">
+        <translations>
+          <en>Big</en>
+          <ar>
+            <x>كبير</x>
+            <r>kabeer</r>
+          </ar>
+          <de>Groß</de>
+          <pl>Duży/duża</pl>
+          <es>Grande</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="805">
+        <translations>
+          <en>Small</en>
+          <ar>
+            <x>صغير</x>
+            <r>saghir</r>
+          </ar>
+          <de>Klein</de>
+          <pl>Mały/mała</pl>
+          <es>Pequeño</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="803">
+        <translations>
+          <en>They have a big house.</en>
+          <ar>
+            <x>لديهم منزل كبير</x>
+            <r>ladyahem manzel-on kabeer</r>
+          </ar>
+          <de>Sie haben ein großes Haus.</de>
+          <pl>Oni mają duży dom.</pl>
+          <es>Tienen una casa grande.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="830" type="word">
+        <translations>
+          <en>She has a small car.</en>
+          <ar>
+            <x>عندها سيارة صغيرة</x>
+            <r>indaha sayyara-ton saghirah</r>
+          </ar>
+          <de>Sie hat ein kleines Auto.</de>
+          <pl>Ona ma mały samochód.</pl>
+          <es>Ella tiene un coche pequeño.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest>
+        <choicesByRef>
+          <choice ref="804" />
+          <choice ref="805" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word type="word" wid="807">
+        <translations>
+          <en>Shirt</en>
+          <ar>
+            <x>قميص</x>
+            <r>qamis</r>
+          </ar>
+          <de>Hemd</de>
+          <pl>Koszula</pl>
+          <es>Camisa</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="801">
+        <translations>
+          <en>Purse</en>
+          <ar>
+            <x>حقيبة يد</x>
+            <r>hakibat-o yad</r>
+          </ar>
+          <de>Handtasche</de>
+          <pl>Torebka</pl>
+          <es>Monedero</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="806">
+        <translations>
+          <en>Skirt</en>
+          <ar>
+            <x>تنورة</x>
+            <r>tanura</r>
+          </ar>
+          <de>Rock</de>
+          <pl>Spódnica</pl>
+          <es>Falda</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="809">
+        <translations>
+          <en>Trousers</en>
+          <ar>
+            <x>سروال</x>
+            <r>sirwal</r>
+          </ar>
+          <de>Hose</de>
+          <pl>Spodnie</pl>
+          <es>Pantalones</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="808">
+        <translations>
+          <en>Belt</en>
+          <ar>
+            <x>حزام</x>
+            <r>hizam</r>
+          </ar>
+          <de>Gürtel</de>
+          <pl>Pasek</pl>
+          <es>Cinturón</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="824">
+        <translations>
+          <en>Shoes</en>
+          <ar>
+            <x>حذاء</x>
+            <r>hithaa</r>
+          </ar>
+          <de>Schuhe</de>
+          <pl>Buty</pl>
+          <es>Zapatos</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="802">
+        <translations>
+          <en>I have a red shirt</en>
+          <ar>
+            <x>عندي قميص أحمر</x>
+            <r>indi qameeson ahmar</r>
+          </ar>
+          <de>Ich habe ein rotes Hemd</de>
+          <pl>Mam czerwoną spódnicę</pl>
+          <es>Tengo una camisa roja</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="818">
+        <translations>
+          <en>I have a blue skirt</en>
+          <ar>
+            <x>عندي تنورة زرقاء</x>
+            <r>indi tanura zarqa'</r>
+          </ar>
+          <de>Ich habe einen blauen Rock</de>
+          <pl>Mam niebieską koszulę</pl>
+          <es>Tengo una falda azul</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="819">
+        <translations>
+          <en>Trees are green</en>
+          <ar>
+            <x>الأشجار خضراء</x>
+            <r>al ashjar-o khadra'</r>
+          </ar>
+          <de>Bäume sind grün</de>
+          <pl>Drzewa są zielone</pl>
+          <es>Los árboles son verdes</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="821">
+        <translations>
+          <en>He has a black belt</en>
+          <ar>
+            <x>عنده حزام أسود</x>
+            <r>indahu hizam-on aswad</r>
+          </ar>
+          <de>Er hat einen schwarzen Gürtel</de>
+          <pl>On ma czarny pasek</pl>
+          <es>Él tiene un cinturón negro</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="820">
+        <translations>
+          <en>She has white shoes</en>
+          <ar>
+            <x>عندها حذاء أبيض</x>
+            <r>indaha hitha-on abyad</r>
+          </ar>
+          <de>Sie hat weiße Schuhe</de>
+          <pl>Ona ma białe buty</pl>
+          <es>Ella tiene zapatos blancos</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="822">
+        <translations>
+          <en>Red purse</en>
+          <ar>
+            <x>حقيبة يد حمراء</x>
+            <r>hakibat-o yad-en hamra'</r>
+          </ar>
+          <de>Rote Handtasche</de>
+          <pl>Czerwona torebka</pl>
+          <es>Monedero rojo</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="802" />
+          <choice ref="818" />
+          <choice ref="819" />
+          <choice ref="820" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <!-- dilaog -->
+    <step>
+      <dialog did="825">
+        <among>
+          <speaker gender="F" who="A" />
+          <speaker gender="M" who="B" />
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>I bought a shirt.</en>
+              <ar>
+                <x>إشتريت تنورة</x>
+                <r>isharaitu tanura</r>
+              </ar>
+              <de>Ich kaufte mir ein Hemd.</de>
+              <pl>Kupiłam spódnicę.</pl>
+              <es>Compré una camisa.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>That is nice.</en>
+              <ar>
+                <x>هذا لطيف!</x>
+                <r>hatha latif</r>
+              </ar>
+              <de>Das ist schön.</de>
+              <pl>To fajnie.</pl>
+              <es>Es genial.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Is it white?</en>
+              <ar>
+                <x>هل هي بيضاء؟</x>
+                <r>hal hiya bayda'?</r>
+              </ar>
+              <de>Ist es weiß?</de>
+              <pl>Białą?</pl>
+              <es>¿Es blanca?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>No, Black.</en>
+              <ar>
+                <x>لا, سوداء</x>
+                <r>la, sawda'</r>
+              </ar>
+              <de>Nein, Schwarz.</de>
+              <pl>Nie, czarną.</pl>
+              <es>No, negra.</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="806" />
+          <choice ref="807" />
+          <choice ref="809" />
+          <choice ref="808" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <!-- dialog -->
+    <step>
+      <dialog did="818">
+        <among>
+          <speaker gender="M" who="A" />
+          <speaker gender="F" who="B" />
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>I bought a shirt</en>
+              <ar>
+                <x>اشتريت قميصاً</x>
+                <r>ishtaraitu qamisan</r>
+              </ar>
+              <de>Ich kaufte mir ein Hemd.</de>
+              <pl>Kupiłam spódnicę.</pl>
+              <es>Compré una camisa</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>Really? What color?</en>
+              <ar>
+                <x>حقاً؟ ما لونه؟</x>
+                <r>hakan?ma laounuh?</r>
+              </ar>
+              <de>Wirklich? Welche Farbe?</de>
+              <pl>Naprawdę? Jakiego koloru?</pl>
+              <es>¿De verdad? ¿De qué color?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>Red</en>
+              <ar>
+                <x>أحمر</x>
+                <r>ahmar</r>
+              </ar>
+              <de>Rot</de>
+              <pl>Czerwoną</pl>
+              <es>Rojo</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>That is nice!</en>
+              <ar>
+                <x>هذا لطيف!</x>
+                <r>hatha latif!</r>
+              </ar>
+              <de>Das ist schön!</de>
+              <pl>To miło!</pl>
+              <es>¡Es genial!</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>

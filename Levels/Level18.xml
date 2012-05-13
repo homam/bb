@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<level xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="18">
+    <name>
+      <en>Bank</en>
+      <ar>
+        <x>المصرف</x>
+        <r>almasref</r>
+      </ar>
+      <de>Bank</de>
+      <pl>Bank</pl>
+      <es>Banco</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word wid="1801" type="word">
+        <translations>
+          <en>Bank</en>
+          <ar>
+            <x>مصرف</x>
+            <r>masrif</r>
+          </ar>
+          <de>Bank</de>
+          <pl>Bank</pl>
+          <es>Banco</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1812" type="word">
+        <translations>
+          <en>Teller</en>
+          <ar>
+            <x>صرّاف</x>
+            <r>sarraf</r>
+          </ar>
+          <de>Kassierer</de>
+          <pl>Kasjer</pl>
+          <es>Cajero</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1813" type="word">
+        <translations>
+          <en>Deposit</en>
+          <ar>
+            <x>ايداع</x>
+            <r>eida'a</r>
+          </ar>
+          <de>Kaution</de>
+          <pl>Depozyt</pl>
+          <es>Depositar</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1814" type="word">
+        <translations>
+          <en>Withdraw</en>
+          <ar>
+            <x>سحب</x>
+            <r>sahb</r>
+          </ar>
+          <de>Abheben</de>
+          <pl>Wypłata</pl>
+          <es>Retirar</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="1813" />
+          <choice ref="1814" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="1802" type="word">
+        <translations>
+          <en>I need to open an account</en>
+          <ar>
+            <x>أريد أن أفتح حساب</x>
+            <r>urido an aftah hisab</r>
+          </ar>
+          <de>Ich muss ein Konto eröffnen</de>
+          <pl>Chcę otworzyć konto</pl>
+          <es>Necesito abrir una cuenta</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1803" type="word">
+        <translations>
+          <en>I have a question</en>
+          <ar>
+            <x>لدي سؤال</x>
+            <r>ladaya soual</r>
+          </ar>
+          <de>Ich habe eine Frage</de>
+          <pl>Mam pytanie</pl>
+          <es>Tengo una pregunta</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1804" type="word">
+        <translations>
+          <en>What is the rate today?</en>
+          <ar>
+            <x>ما هو سعر اليوم؟</x>
+            <r>ma howa sia'ar alyaoum?</r>
+          </ar>
+          <de>Wie ist der Wechselkurs heute?</de>
+          <pl>Jaki jest dzisiejszy kurs?</pl>
+          <es>¿Cuál es la tarifa de hoy?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1805" type="word">
+        <translations>
+          <en>I need a credit card</en>
+          <ar>
+            <x>أريد بطاقة إئتمان</x>
+            <r>urido bitakat iatiman</r>
+          </ar>
+          <de>Ich brauche eine Kreditkarte</de>
+          <pl>Potrzebuję kartę kredytową</pl>
+          <es>Necesito una tarjeta de crédito</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1806" type="word">
+        <translations>
+          <en>I need to transfer money</en>
+          <ar>
+            <x>أريد تحويل أموال</x>
+            <r>urido tahwila amwal</r>
+          </ar>
+          <de>Ich muss Geld überweisen</de>
+          <pl>Chcę przesłać pieniądze</pl>
+          <es>Tengo que hacer una transferencia de dinero</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1807" type="word">
+        <translations>
+          <en>I am expecting a payment</en>
+          <ar>
+            <x>أتوقع دفعة</x>
+            <r>atawaka'au dufa'a</r>
+          </ar>
+          <de>Ich erwarte eine Zahlung</de>
+          <pl>Czekam na płatność</pl>
+          <es>Estoy esperando un pago</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1808" type="word">
+        <translations>
+          <en>Where is the branch located?</en>
+          <ar>
+            <x>أين يقع الفرع؟</x>
+            <r>ayna yaka'au alfira'?</r>
+          </ar>
+          <de>Wo befindet sich die Zweigstelle?</de>
+          <pl>Gdzie znajduje się filia?</pl>
+          <es>¿Dónde está la sucursal?</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="1809" type="word">
+        <translations>
+          <en>I want to exchange money</en>
+          <ar>
+            <x>أريد صرف أموال</x>
+            <r>urido sarfa amwal</r>
+          </ar>
+          <de>Ich möchte Geld wechseln</de>
+          <pl>Chcę wymienić walutę</pl>
+          <es>Quiero cambiar dinero</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="1806" />
+          <choice ref="1809" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word wid="1810" type="word">
+        <translations>
+          <en>I want to cash a cheque</en>
+          <ar>
+            <x>أريد صرف شيك</x>
+            <r>urido sarfa cheque</r>
+          </ar>
+          <de>Ich möchte einen Scheck einlösen</de>
+          <pl>Chcę spieniężyć czek</pl>
+          <es>Quiero cobrar un cheque</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <dialog did="1811">
+        <among>
+          <speaker who="A" gender="M">
+            <name>
+              <en>Teller</en>
+              <ar>
+                <x>صرّاف</x>
+                <r>sarraf</r>
+              </ar>
+              <de>Kassierer</de>
+              <pl>Kasjer</pl>
+              <es>Cajero bancario</es>
+            </name>
+          </speaker>
+          <speaker who="B" gender="M"></speaker>
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>how can I help you?</en>
+              <ar>
+                <x>كيف يمكنني مساعدتك؟</x>
+                <r>kayfa yomkinuni musa'adatuk?</r>
+              </ar>
+              <de>wie kann ich Ihnen helfen?</de>
+              <pl>W czym mogę pomóc?</pl>
+              <es>¿Cómo puedo ayudarle?</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>I want to exchange money</en>
+              <ar>
+                <x>أريد صرف أموال</x>
+                <r>urido sarfa amwal</r>
+              </ar>
+              <de>Ich möchte Geld wechseln</de>
+              <pl>Chcę wymienić walutę</pl>
+              <es>Quiero cambiar dinero</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>Sure.</en>
+              <ar>
+                <x>أكيد</x>
+                <r>akid</r>
+              </ar>
+              <de>Sicher.</de>
+              <pl>Oczywiście.</pl>
+              <es>Por supuesto.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>What is the rate today?</en>
+              <ar>
+                <x>ما هو سعر اليوم؟</x>
+                <r>ma howa sia'ar alyaoum?</r>
+              </ar>
+              <de>Wie steht der Wechselkurs heute?</de>
+              <pl>Jaki jest dzisiejszy kurs?</pl>
+              <es>¿Cuál es la tarifa de hoy?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>2.5</en>
+              <ar>
+                <x>2.5</x>
+                <r>2.5</r>
+              </ar>
+              <de>2.5</de>
+              <pl>2.5</pl>
+              <es>2.5</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+  </steps>
+</level>

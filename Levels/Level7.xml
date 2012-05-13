@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<level xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../level.xsd">
+  <levelInfo number="7">
+    <name>
+      <en>Numbers</en>
+      <ar>
+        <x>الأرقام</x>
+        <r>alarqam</r>
+      </ar>
+      <de>Nummern</de>
+      <pl>Liczby</pl>
+      <es>Números</es>
+    </name>
+  </levelInfo>
+  <steps>
+    <step>
+      <word type="word" wid="701">
+        <translations>
+          <en>What time is it?</en>
+          <ar>
+            <x>كم الساعة الآن؟</x>
+            <r>kam alsa'a-to alan?</r>
+          </ar>
+          <de>Wie spät ist es?</de>
+          <pl>Która godzina?</pl>
+          <es>¿Qué hora es?</es>
+        </translations>
+      </word>
+    </step>
+    <!-- 6 am to 7 am-->
+    <step>
+      <word wid="722" type="word">
+        <translations>
+          <en>It is six.</en>
+          <ar>
+            <x>انها السادسة</x>
+            <r>innaha al sadesa</r>
+          </ar>
+          <de>Es ist sechs Uhr.</de>
+          <pl>Jest szósta.</pl>
+          <es>Son las seis.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="715">
+        <translations>
+          <en>It is seven in the morning.</en>
+          <ar>
+            <x>انها السابعة صباحا</x>
+            <r>innaha al sabia'a-to sabahan</r>
+          </ar>
+          <de>Es ist sieben Uhr morgens.</de>
+          <pl>Jest siódma rano.</pl>
+          <es>Son las seis de la mañana.</es>
+        </translations>
+      </word>
+    </step>
+    <!-- test -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choices>
+          <choice image="set7/722.jpg">
+            <translations>
+              <en>Six</en>
+              <ar>
+                <x>السادسة</x>
+                <r>alsadesa</r>
+              </ar>
+              <es>Seis</es>
+              <de>Sechs</de>
+            </translations>
+          </choice>
+          <choice image="set7/715.jpg">
+            <translations>
+              <en>Seven</en>
+              <ar>
+                <x>السابعة</x>
+                <r>alsabea'a</r>
+              </ar>
+              <es>Siete</es>
+              <de>Sieben</de>
+            </translations>
+          </choice>
+        </choices>
+      </multipleChoiceTest>
+    </step>
+    <!-- 8 to 12 am-->
+    <step>
+      <word type="word" wid="704">
+        <translations>
+          <en>I wake up at eight.</en>
+          <ar>
+            <x>أستيقظ في الساعة الثامنة</x>
+            <r>astaiketh-o fe alsa'a-ti althaminah</r>
+          </ar>
+          <de>Ich wache um acht Uhr auf.</de>
+          <pl>Wstaję o ósmej.</pl>
+          <es>Me levanto a las seis.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="714">
+        <translations>
+          <en>I have a meeting at nine.</en>
+          <ar>
+            <x>عندي إجتماع في الساعة التاسعة</x>
+            <r>indi ijtima'a fe alsa'a-ti al tasia'a</r>
+          </ar>
+          <de>Ich habe ein Treffen um neun Uhr.</de>
+          <pl>O dziewiątej mam spotkanie.</pl>
+          <es>Tengo una reunión a las nueve.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="702">
+        <translations>
+          <en>It is ten in the morning!</en>
+          <ar>
+            <x>إنها العاشرة صباحا!</x>
+            <r>inaha al ashira-to sabhan!</r>
+          </ar>
+          <de>Es ist zehn Uhr morgens!</de>
+          <pl>Jest dziesiąta rano!</pl>
+          <es>¡Son las diez de la mañana!</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="723" type="word">
+        <translations>
+          <en>Eleven</en>
+          <ar>
+            <x>الحادية عشرة</x>
+            <r>al hadiyata 'ashrah</r>
+          </ar>
+          <de>Elf</de>
+          <pl>Jedenasta</pl>
+          <es>Once</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="724" type="word">
+        <translations>
+          <en>Twelve</en>
+          <ar>
+            <x>الثانية عشرة</x>
+            <r>al thaniyata 'ashrah</r>
+          </ar>
+          <de>Zwölf</de>
+          <pl>Dwunasta</pl>
+          <es>Doce</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="727" type="word">
+        <translations>
+          <en>A bike has two wheels</en>
+          <ar>
+            <x>الدراجة لها اطاران</x>
+            <r>al daraja-to laha itaran</r>
+          </ar>
+          <de>Ein Fahrrad hat zwei Räder</de>
+          <pl>Rower ma dwa koła</pl>
+          <es>Una bicicleta tiene dos ruedas</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="725" type="word">
+        <translations>
+          <en>I have three brothers</en>
+          <ar>
+            <x>عندي ثلاث اخوان</x>
+            <r>indi thalath-o ikhwan</r>
+          </ar>
+          <de>Ich habe drei Brüder</de>
+          <pl>Mam trzech braci</pl>
+          <es>Tengo tres hermanos</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="726" type="word">
+        <translations>
+          <en>A car has four wheels.</en>
+          <ar>
+            <x>السيارة لها أربع اطارات</x>
+            <r>al sayara-to laha arba'-o itarat</r>
+          </ar>
+          <de>Ein Auto hat vier Räder.</de>
+          <pl>Samochód ma cztery koła.</pl>
+          <es>Un coche tiene cuatro ruedas.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word wid="728" type="word">
+        <translations>
+          <en>Street number five</en>
+          <ar>
+            <x>الشارع رقم خمسة</x>
+            <r>al sharea'-o raqam khamsah</r>
+          </ar>
+          <de>Straße Nummer fünf</de>
+          <pl>Ulica piąta</pl>
+          <es>Calle número cinco</es>
+        </translations>
+      </word>
+    </step>
+    <!-- test -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choices>
+          <choice image="set7/723.jpg">
+            <translations>
+              <en>Eleven</en>
+              <ar>
+                <x>الحادية عشرة</x>
+                <r>al hadiya ashrah</r>
+              </ar>
+              <es>Once</es>
+              <de>Elf</de>
+            </translations>
+          </choice>
+          <choice image="Set7/724.jpg">
+            <translations>
+              <en>Twelve</en>
+              <ar>
+                <x>الثانية عشرة</x>
+                <r>al thaniyah ashrah</r>
+              </ar>
+              <de>Zwölf</de>
+              <es>Doce</es>
+            </translations>
+          </choice>
+          <choice image="Set7/702.jpg">
+            <translations>
+              <en>Ten</en>
+              <ar>
+                <x>العاشرة</x>
+                <r>al ashira</r>
+              </ar>
+              <es>Diez</es>
+              <de>Zehn</de>
+            </translations>
+          </choice>
+          <choice image="Set7/727.jpg">
+            <translations>
+              <en>Two</en>
+              <ar>
+                <x>اثنان</x>
+                <r>ithnan</r>
+              </ar>
+              <de>Zwei</de>
+              <es>Dos</es>
+            </translations>
+          </choice>
+          <choice image="Set7/728.jpg">
+            <translations>
+              <en>Five</en>
+              <ar>
+                <x>خمسة</x>
+                <r>khamsah</r>
+              </ar>
+              <es>Cinco</es>
+              <de>Fünf</de>
+            </translations>
+          </choice>
+        </choices>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <word type="word" wid="707">
+        <translations>
+          <en>Breakfast</en>
+          <ar>
+            <x>الفطور</x>
+            <r>al futour</r>
+          </ar>
+          <de>Frühstück</de>
+          <pl>Śniadanie</pl>
+          <es>Desayuno</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="710">
+        <translations>
+          <en>Lunch</en>
+          <ar>
+            <x>الغذاء</x>
+            <r>al ghatha'</r>
+          </ar>
+          <de>Mittagessen</de>
+          <pl>Lunch</pl>
+          <es>Comida</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="717">
+        <translations>
+          <en>Dinner</en>
+          <ar>
+            <x>العشاء</x>
+            <r>al 'asha'</r>
+          </ar>
+          <de>Abendessen</de>
+          <pl>Obiad</pl>
+          <es>Cena</es>
+        </translations>
+      </word>
+    </step>
+    <!-- test -->
+    <step>
+      <multipleChoiceTest limitTestsBy="2">
+        <choicesByRef>
+          <choice ref="710" />
+          <choice ref="707" />
+          <choice ref="717" />
+        </choicesByRef>
+      </multipleChoiceTest>
+    </step>
+    <step>
+      <missingWordTest>
+        <sentenceRef ref="718" />
+        <test>
+          <en>
+            <missing>lunch</missing>
+            <choices>
+              <choice>breakfast</choice>
+              <choice>dinner</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>Como</missing>
+            <choices>
+              <choice>Cenar</choice>
+              <choice>Desayunar</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Mittag</missing>
+            <choices>
+              <choice>Frühstück</choice>
+              <choice>Abendessen</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>الغذاء</x>
+              <r>al ghatha'</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>الفطور</x>
+                <r>al futour</r>
+              </choice>
+              <choice>
+                <x>العشاء</x>
+                <r>al a'asha'</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+    <step>
+      <word type="word" wid="718">
+        <translations>
+          <en>I have lunch at one.</en>
+          <ar>
+            <x>أتغذى على الساعة الواحدة</x>
+            <r>al ghatha' 'ala alsa'a-ti al wahidah</r>
+          </ar>
+          <de>Ich esse um ein Uhr zu Mittag.</de>
+          <pl>O pierwszej jem lunch.</pl>
+          <es>Como a la una.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <word type="word" wid="711">
+        <translations>
+          <en>I go to bed at eleven.</en>
+          <ar>
+            <x>أذهب للنوم الساعة الحادية عشرة</x>
+            <r>athhabu lilnaom-i alsa'a al hadiyata ashra</r>
+          </ar>
+          <de>Ich gehe um elf Uhr ins Bett.</de>
+          <pl>O jedenastej idę do łóżka.</pl>
+          <es>Me acuesto a las once.</es>
+        </translations>
+      </word>
+    </step>
+    <step>
+      <dialog did="720">
+        <among>
+          <speaker gender="F" who="A" />
+          <speaker gender="M" who="B" />
+        </among>
+        <lines>
+          <line by="A">
+            <translations>
+              <en>Wake up Omar! You're late!</en>
+              <ar>
+                <x>إستيقظ عمر! إنك متأخر !</x>
+                <r>istaikith omar! inaka mutaakhir!</r>
+              </ar>
+              <de>Wach auf Omar! Du kommst zu spät!</de>
+              <pl>Obudź się Omar! Jesteś spóźniony!</pl>
+              <es>¡Levántate Omar! ¡Te has retrasado!</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>I want to sleep more, please!</en>
+              <ar>
+                <x>أرجوك, أريد النوم!</x>
+                <r>arjuki, urido alnaoum!</r>
+              </ar>
+              <de>Ich möchte weiterschlafen, bitte!</de>
+              <pl>Chcę jeszcze spać!</pl>
+              <es>¡Quiero dormir más, por favor!</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>What time is it?</en>
+              <ar>
+                <x>كم الساعة؟</x>
+                <r>kam alsa'a?</r>
+              </ar>
+              <de>Wie spät ist es?</de>
+              <pl>Która godzina?</pl>
+              <es>¿Qué hora es?</es>
+            </translations>
+          </line>
+          <line by="A">
+            <translations>
+              <en>The time is eight.</en>
+              <ar>
+                <x>الساعة الثامنة</x>
+                <r>alsa'a-to al thamina</r>
+              </ar>
+              <de>Es ist acht Uhr.</de>
+              <pl>Jest ósma.</pl>
+              <es>Son las ocho.</es>
+            </translations>
+          </line>
+          <line by="B">
+            <translations>
+              <en>I am late, I better hurry!</en>
+              <ar>
+                <x>إنني متأخر, الأفضل أن أسرع!</x>
+                <r>inani muatakhir, alafdal an usria'a!</r>
+              </ar>
+              <de>Ich bin spät, ich beeile mich besser!</de>
+              <pl>Jestem spóźniony, lepiej się pospieszę!</pl>
+              <es>¡Me he retrasado, más vale que me apresure!</es>
+            </translations>
+          </line>
+        </lines>
+      </dialog>
+    </step>
+    <step>
+      <missingWordTest>
+        <dialogRefElement ref="720" fromLine="2" takeLines="2" />
+        <test>
+          <en>
+            <missing>What time is it</missing>
+            <choices>
+              <choice>Which time is it</choice>
+              <choice>How time is</choice>
+              <choice>What time is</choice>
+            </choices>
+          </en>
+          <es>
+            <missing>Qué hora es</missing>
+            <choices>
+              <choice>Cómo el tiempo es</choice>
+              <choice>Qué es</choice>
+            </choices>
+          </es>
+          <de>
+            <missing>Wie spät</missing>
+            <choices>
+              <choice>Wie die</choice>
+              <choice>Wie weit</choice>
+            </choices>
+          </de>
+          <ar>
+            <missing>
+              <x>كم الساعة</x>
+              <r>kam alsa'a</r>
+            </missing>
+            <choices>
+              <choice>
+                <x>كيف الساعة؟</x>
+                <r>kayfa alsa'a</r>
+              </choice>
+              <choice>
+                <x>متى الساعة</x>
+                <r>mata alsa'a</r>
+              </choice>
+              <choice>
+                <x>ماذا الساعة</x>
+                <r>matha alsa'a</r>
+              </choice>
+            </choices>
+          </ar>
+        </test>
+      </missingWordTest>
+    </step>
+  </steps>
+</level>
